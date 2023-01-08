@@ -1,8 +1,10 @@
+import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 import re
+import pandas
 from math import ceil
 
 def scrape_prijs_specifiek(src):
@@ -16,15 +18,15 @@ def scrape_prijs_specifiek(src):
 
 def verwerk_resultaten(f_naam, producten, prijzen):
     # Stop kaart en prijs in dictionary
-    prijs_gekoppelde_producten = dict(zip(producten, prijzen))
+    data = {"productnaam": producten, "prijs": prijzen}
 
     # Maak een file
     with open(f_naam, "w") as f:
-        # Schrijf gekoppeld product/prijs naar file
-        for key in prijs_gekoppelde_producten:
-            if prijs_gekoppelde_producten[key] != "":
-                f.write(f"{key}:{prijs_gekoppelde_producten[key]}\n")
-
+        df = pd.DataFrame.from_dict(data=data,
+                                    orient="index"
+                                    )
+        df = df.transpose()
+        df.to_csv(f_naam)
 
 # vind hoeveelheid producten zodat we weten hoeveel pagina's er gescrapet moeten worden
 def bereken_hoeveelheid():
@@ -82,7 +84,9 @@ def scrape_pagina(next_page_xpath):
 
         # Formuleer lijst met producten
         for videokaart in producten_container:
-            producten.append(videokaart.text)
+            # Maak alles kleine letters en verwijder extra lege lijnen
+            producten.append(videokaart.text.replace("\n", "").lower())
+
 
         # Loep over prijs containers
         for prijs in prijs_container:
@@ -107,7 +111,7 @@ def scrape_pagina(next_page_xpath):
 scrape_pagina('/html/body/div/main/div[1]/div[6]/div[5]/div[3]')
 
 # Verwerk de resultaten in een file
-verwerk_resultaten("scraped_gpus.txt", producten, prijzen)
+verwerk_resultaten("scraped_gpus.csv", producten, prijzen)
 
 # -----------------processoren----------------- #
 # Stuur selenium nieuwe link voor processoren
@@ -134,7 +138,7 @@ hoeveelheid = bereken_hoeveelheid()
 
 # Scrape pagina en verwerk resultaten
 scrape_pagina('/html/body/div/main/div[1]/div[5]/div[5]/div[3]')
-verwerk_resultaten("scraped_cpus.txt", producten, prijzen)
+verwerk_resultaten("scraped_cpus.csv", producten, prijzen)
 
 # -----------------Moederborden----------------- #
 # Stuur selenium nieuwe link voor moederborden
@@ -166,7 +170,7 @@ hoeveelheid = bereken_hoeveelheid()
 
 # Scrape pagina en verwerk resultaten
 scrape_pagina("/html/body/div/main/div[1]/div[6]/div[5]/div[3]")
-verwerk_resultaten("scraped_moederborden.txt", producten, prijzen)
+verwerk_resultaten("scraped_moederborden.csv", producten, prijzen)
 
 # ----------------- Coolers ----------------- #
 time.sleep(1)
@@ -185,7 +189,7 @@ prijzen.append(scrape_prijs_specifiek("https://www.megekko.nl/product/1994/11289
 producten.append("Artic Liquid Freezer II 240")
 prijzen.append(scrape_prijs_specifiek("https://www.megekko.nl/product/1986/1086852/Complete-sets-CPU/Arctic-Liquid-Freezer-II-240?s_o=1"))
 
-verwerk_resultaten("results_coolers.txt", producten, prijzen)
+verwerk_resultaten("results_coolers.csv", producten, prijzen)
 
 # ----------------- Behuizingen ----------------- #
 prijzen = []
@@ -206,7 +210,7 @@ producten.append("Corsair 4000D Airflow Tempered Glass Black Midi Tower Behuizin
 prijzen.append(scrape_prijs_specifiek("https://www.megekko.nl/product/2013/1113622/Midi-Tower-Behuizingen/Corsair-4000D-Airflow-Tempered-Glass-Black-Midi-Tower-Behuizing?s_o=1"))
 
 producten.append("Fractal Design Torrent Gray + Light TG Midi Tower Behuizing")
-prijzen.append(scrape_prijs_specifiek("https://www.megekko.nl/product/2013/375177/Midi-Tower-Behuizingen/Fractal-Design-Torrent-Gray-Light-TG-Midi-Tower-Behuizing?s_o=3"))
+prijzen.append(scrape_prijs_specifiek("https://www.megekko.nl/product/2013/375186/Midi-Tower-Behuizingen/Fractal-Design-Torrent-Compact-White-TG-Clear-Tint-Midi-Tower-Behuizing?s_o=2"))
 
 verwerk_resultaten("behuizing_results.txt", producten, prijzen)
 
@@ -219,4 +223,4 @@ driver.get("https://www.megekko.nl/Computer/Componenten/Hard-disks")
 time.sleep(1)
 hoeveelheid = bereken_hoeveelheid()
 scrape_pagina('//*[@id="navigation_products"]/div[5]/div[3]')
-resultaten = verwerk_resultaten("scraped_opslag.txt", producten, prijzen)
+resultaten = verwerk_resultaten("scraped_opslag.csv", producten, prijzen)

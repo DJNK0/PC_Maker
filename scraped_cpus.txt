@@ -1,3 +1,4 @@
+,productnaam,prijs
 AMD Ryzen 5 5600X processor:179
 AMD Ryzen 7 5800X3D processor:399
 AMD Ryzen 7 5800X processor:249
@@ -51,12 +52,12 @@ AMD Ryzen 3 3100 processor:110
 Intel Pentium Gold G7400:105
 Intel Celeron G6900:74
 Intel Core i7-12700 Tray:389
-AMD Ryzen™ 5 PRO 4650G processor:289
+AMD Ryzenï¿½ 5 PRO 4650G processor:289
 Intel Core i5-12400 Tray:229
 AMD Ryzen 9 3950X processor:699
-AMD Ryzen™ 5 2600X processor:249
-AMD Ryzen™ 7 3800XT processor:399
-AMD Ryzen™ 5 1600 processor:164
+AMD Ryzenï¿½ 5 2600X processor:249
+AMD Ryzenï¿½ 7 3800XT processor:399
+AMD Ryzenï¿½ 5 1600 processor:164
 AMD Ryzen 5 4500 3,6 GHz 8 MB L3 processor:158
 AMD Ryzen 5 3500X processor:193
 AMD Athlon 3000G processor:103

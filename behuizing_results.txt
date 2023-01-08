@@ -1,4 +1,5 @@
-39,:Kolink KLM-002 computer Micro- Zwart Midi Tower Behuizing
-Zalman T7 Midi Tower Behuizing:49
-Corsair 4000D Airflow Tempered Glass Black Midi Tower Behuizing:104
-Fractal Design Torrent Gray + Light TG Midi Tower Behuizing:214
+,productnaam,prijs
+0,"28,",Akyga AK939BL computer Zwart Midi Tower Behuizing
+1,Zalman T7 Midi Tower Behuizing,49
+2,Corsair 4000D Airflow Tempered Glass Black Midi Tower Behuizing,103
+3,Fractal Design Torrent Gray + Light TG Midi Tower Behuizing,139

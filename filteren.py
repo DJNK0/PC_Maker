@@ -1,5 +1,6 @@
 # Functie om string te scheiden in 2 delen
 import collections
+import pandas as pd
 
 def contains(substring, string):
     c1 = collections.Counter(string)
@@ -34,11 +35,11 @@ def check_specifiek(str, str_2):
 def check_of_in_woord(l, str_vergelijk):
     for word in l:
         if word in str_vergelijk:
-            print(word+ " TRUE")
+
             continue
 
         else:
-            print(word + " FALSE")
+
             return False
 
     return True
@@ -48,6 +49,8 @@ def check_of_in_woord(l, str_vergelijk):
 def filter(gewenste_file, gescrapede_file, results_file):
     results = []
     # Open file met gewenste videokaarten en de gescrapete videokaarten
+    df_gewenst = pd.read_csv(gewenste_file)
+    dinges = False
     with open(gewenste_file, "r") as gewenste_f:
 
         # Filter de gewenste modellen
@@ -59,60 +62,70 @@ def filter(gewenste_file, gescrapede_file, results_file):
             # Scheid de videokaart namen
             row = scheid_str(row)
 
-
             # Maak lijst voor matches
             matches = []
 
-            # Open de file met gescrapete videokaarten
-            with open(gescrapede_file, "r") as scraped_f:
-                # Loep over de gescrapete videokaarten
-                for i, line in enumerate(scraped_f.readlines()):
-                    # Scheid de naam en prijs
-                    naam = scheid_str(line)[1].lower()
+            df_scraped = pd.read_csv(gescrapede_file, index_col=False, encoding="utf8")
+            print(df_scraped.columns)
+            # Loep over de gescrapete videokaarten
+            for i in df_scraped.index:
 
-                    if "|" in row[0]:
+                # Scheid de naam en prijs
 
-                        gesplit = row[0].split("|")
-                        if check_of_in_woord(gesplit, naam):
-                            # Voeg hem toe samen met prijs en index aan de lijst met matches
-                            prijs = int(scheid_str(line)[0].strip("\n"))
-                            matches.append((prijs, i))
+                naam = df_scraped["productnaam"][i].lower()
 
-                    check = check_specifiek(row, naam)
 
-                    if isinstance(check, str):
-                        row = list(row)
-                        row[1] = check
+                if "|" in row[0]:
 
-                    if check is not True:
-                        # Als de videokaart naam in de gescrapete string zit
-                        if row[0] in naam or row[1] in naam:
+                    gesplit = row[0].split("|")
+                    if check_of_in_woord(gesplit, naam):
+                        # Voeg hem toe samen met prijs en index aan de lijst met matches
+                        prijs = df_scraped["prijs"][i]
 
-                            # Voeg hem toe samen met prijs en index aan de lijst met matches
-                            prijs = int(scheid_str(line)[0].strip("\n"))
-                            matches.append((prijs, i))
+                        matches.append((prijs, i))
+
+
+
+                check = check_specifiek(row, naam)
+
+                if isinstance(check, str):
+                    row = list(row)
+                    row[1] = check
+
+                if check is not True:
+                    # Als de videokaart naam in de gescrapete string zit
+                    if row[0] in naam or row[1] in naam:
+                        prijs = df_scraped["prijs"][i]
+                        # Voeg hem toe samen met prijs en index aan de lijst met matches
+                        matches.append((prijs, i))
+
 
             # Sorteer matches op prijs
+
             matches.sort()
 
             # Als er matches zijn
             if len(matches) != 0:
+
+
                 # Voeg goedkoopste match toe aan lijst met results
+
                 results.append(matches[0])
+
 
     # Verwijder dubbele results
     results = list(dict.fromkeys(results))
 
     # Open file opnieuw en lees hem zodat we er overheen kunnen loepen
-    lines = open(gescrapede_file, "r").readlines()
+    lines = open(gescrapede_file, "r", encoding="utf8").readlines()
 
     # Voeg results toe aan file met results
-    with open(results_file, "w") as f:
+    with open(results_file, "w", encoding="utf8") as f:
         for result in results:
             f.write(lines[result[1]])
 
 # Call filter functie op zowel videokaarten als processoren
-filter("cpus.txt", "scraped_cpus.txt", "results_cpus.txt")
-filter("gpus.txt", "scraped_gpus.txt", "results_gpus.txt")
-filter("moederborden.txt", "scraped_moederborden.txt", "results_moederborden.txt")
-filter("opslag.txt", "scraped_opslag.txt", "results_opslag.txt")
+filter("cpus.txt", "scraped_cpus.csv", "results_cpus.txt")
+filter("gpus.txt", "scraped_gpus.csv", "results_gpus.txt")
+filter("moederborden.txt", "scraped_moederborden.csv", "results_moederborden.txt")
+filter("opslag.txt", "scraped_opslag.csv", "results_opslag.txt")

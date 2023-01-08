@@ -1,14 +1,11 @@
-MSI PRO B660M-E DDR4:104
-Gigabyte B650M DS3H:189
-Gigabyte B650 AORUS ELITE AX:319
-Asus PRIME B550M-A moederbord:94
-Gigabyte B550M AORUS ELITE moederbord:119
-Asrock B450M-HDV R4.0 moederbord:62
-MSI PRO B660M-P DDR4:109
-Asus TUF GAMING B660M-PLUS WIFI D4:189
-Gigabyte Z690 AORUS PRO:339
-MSI MAG Z790 TOMAHAWK WIFI:379
-Gigabyte B450 AORUS Elite V2 moederbord:94
-Asus TUF GAMING B650M-PLUS:249
-MSI MAG B550 TOMAHAWK moederbord:169
-Asus TUF GAMING X670E-PLUS:359
+147,asus tuf gaming z690-plus d4,225
+362,msi mag b660m mortar ddr4,179
+8,gigabyte b550 gaming x v2 moederbord,129
+84,nzxt n7 z790 - matte black,349
+109,asus tuf gaming b550m-e moederbord,129
+252,asus rog strix b550-f gaming(wi-fi) moederbord,269
+99,gigabyte b660i aorus pro ddr4,229
+20,asrock b550m pg riptide moederbord,119
+66,msi pro b660m-a wifi ddr4,154
+3,asus tuf gaming b550-plus wifi ii moederbord,164
+76,asus tuf gaming a520m-plus ii amd a520 socket am4 micro atx moederbord,119
