@@ -18,15 +18,16 @@ def scrape_prijs_specifiek(src):
 
 def verwerk_resultaten(f_naam, producten, prijzen):
     # Stop kaart en prijs in dictionary
-    data = {"productnaam": producten, "prijs": prijzen}
+    prijs_gekoppelde_producten = dict(zip(producten, prijzen))
 
     # Maak een file
     with open(f_naam, "w") as f:
-        df = pd.DataFrame.from_dict(data=data,
-                                    orient="index"
-                                    )
-        df = df.transpose()
-        df.to_csv(f_naam)
+        # Schrijf gekoppeld product/prijs naar file
+        for key in prijs_gekoppelde_producten:
+            if prijs_gekoppelde_producten[key] != "":
+                f.write(f"{key}:{prijs_gekoppelde_producten[key]}\n")
+
+
 
 # vind hoeveelheid producten zodat we weten hoeveel pagina's er gescrapet moeten worden
 def bereken_hoeveelheid():
@@ -53,11 +54,11 @@ driver.get("https://www.megekko.nl/Computer/Componenten/videokaarten")
 time.sleep(1)
 driver.find_element(By.XPATH, '//*[@id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection"]').click()
 time.sleep(1)
-driver.find_element(By.XPATH, '/html/body/div/main/div[1]/div[6]/div[3]/div/div[5]/div/div[1]/label').click()
+driver.find_element(By.XPATH, '//*[@id="labelzoek_20-2"]').click()
 time.sleep(1)
-driver.find_element(By.XPATH, '/html/body/div/main/div[1]/div[6]/div[3]/div/div[5]/div/div[2]/label').click()
+driver.find_element(By.XPATH, '//*[@id="labelzoek_20-3"]').click()
 time.sleep(1)
-driver.find_element(By.XPATH, '/html/body/div/main/div[1]/div[6]/div[3]/div/div[5]/div/div[5]/label').click()
+driver.find_element(By.XPATH, '//*[@id="labelzoek_20-23"]').click()
 time.sleep(1)
 
 # Maak prijzen en producten lijst
@@ -67,9 +68,8 @@ producten = []
 # Bereken hoeveelheid pagina's
 hoeveelheid = bereken_hoeveelheid()
 
-
 # Deze functie scraped de prijzen en namen van alle producten op megekko
-def scrape_pagina(next_page_xpath):
+def scrape_pagina(next_page_xpath, naam_toevoeging =""):
     # Loep
     for i in range(hoeveelheid + 1):
         # Kopieer de html van de pagina
@@ -79,14 +79,17 @@ def scrape_pagina(next_page_xpath):
         # Zoek elke a tag met de class "naam"
         producten_container = soup.find_all("a", {"class": "naam"})
 
+        # Als ie leeg is
+        if producten_container == []:
+            producten_container = soup.find_all("h2", {"itemprop": "name"})
+
         # Zoek elke div tag met de class "priceBlock"
         prijs_container = soup.find_all("div", {"class": "priceBlock"})
 
         # Formuleer lijst met producten
         for videokaart in producten_container:
             # Maak alles kleine letters en verwijder extra lege lijnen
-            producten.append(videokaart.text.replace("\n", "").lower())
-
+            producten.append(videokaart.text.replace("\n", "").lower() + naam_toevoeging)
 
         # Loep over prijs containers
         for prijs in prijs_container:
@@ -96,6 +99,7 @@ def scrape_pagina(next_page_xpath):
             # Als er een prijs is verwijder ",-" zodat alleen het getal overblijft
             if p is not None:
                 nieuw_p = p.text.strip(",-")
+
 
                 # Voeg deze prijs toe aan lijst
                 prijzen.append(nieuw_p)
@@ -108,10 +112,28 @@ def scrape_pagina(next_page_xpath):
 
 
 # Call functie om pagina te scrapen
-scrape_pagina('/html/body/div/main/div[1]/div[6]/div[5]/div[3]')
+scrape_pagina('//*[@id="navigation_products"]/div[5]/div[3]')
 
 # Verwerk de resultaten in een file
-verwerk_resultaten("scraped_gpus.csv", producten, prijzen)
+verwerk_resultaten("scraped_gpus.txt", producten, prijzen)
+
+# ----------------- Voedingen ----------------- # corsair nog toevoegen!!!
+producten = []
+prijzen = []
+hoeveelheid = 1
+
+driver.get("https://www.megekko.nl/Computer/Componenten/Voedingen/PC-voedingen/PC-Voedingen-PSU-?f=f_569-86100_vrrd-0_merk-207,24,151,259,61,135,255,104_s-populair_pp-250_p-1_d-list_cf-")
+scrape_pagina('//*[@id="list_bottomheader"]/div/div[2]/div[3]/img', naam_toevoeging=" bronze")
+
+driver.get("https://www.megekko.nl/Computer/Componenten/Voedingen/PC-voedingen/PC-Voedingen-PSU-?f=f_569-86092_vrrd-0_merk-207,24,151,259,61,135,255,104_s-populair_pp-250_p-1_d-list_cf-")
+scrape_pagina('//*[@id="list_bottomheader"]/div/div[2]/div[3]/img', naam_toevoeging=" gold")
+
+driver.get("https://www.megekko.nl/Computer/Componenten/Voedingen/PC-voedingen/PC-Voedingen-PSU-?f=f_569-86093_vrrd-0_merk-207,24,151,259,61,135,255,104_s-populair_pp-250_p-1_d-list_cf-")
+scrape_pagina('//*[@id="list_bottomheader"]/div/div[2]/div[3]/img', naam_toevoeging=" platinum")
+
+driver.get("https://www.megekko.nl/Computer/Componenten/Voedingen/PC-voedingen/PC-Voedingen-PSU-?f=f_569-86096_vrrd-0_merk-207,24,151,259,61,135,255,104_s-populair_pp-250_p-1_d-list_cf-")
+scrape_pagina('//*[@id="list_bottomheader"]/div/div[2]/div[3]/img', naam_toevoeging=" titanium")
+verwerk_resultaten("scraped_psus.txt", producten, prijzen)
 
 # -----------------processoren----------------- #
 # Stuur selenium nieuwe link voor processoren
@@ -124,21 +146,21 @@ producten = []
 
 # Klik filters voor de socket aan met selenium
 time.sleep(1)
-driver.find_element(By.XPATH, '/html/body/div/main/div[1]/div[5]/div[3]/div/div[5]/div/div[14]').click()
+driver.find_element(By.XPATH, '//*[@id="labelzoek_18-33"]').click()
 time.sleep(1)
-driver.find_element(By.XPATH, '/html/body/div/main/div[1]/div[5]/div[3]/div/div[5]/div/div[3]/label').click()
+driver.find_element(By.XPATH, '//*[@id="labelzoek_18-19"]').click()
 time.sleep(1)
-driver.find_element(By.XPATH, '/html/body/div/main/div[1]/div[5]/div[3]/div/div[5]/div/div[5]/label').click()
+driver.find_element(By.XPATH, '//*[@id="showmoreprodList18"]').click()
 time.sleep(1)
-driver.find_element(By.XPATH, '/html/body/div/main/div[1]/div[5]/div[3]/div/div[5]/div/div[10]/label').click()
+driver.find_element(By.XPATH, '//*[@id="labelzoek_18-34"]').click()
 time.sleep(1)
 
 # Bereken hoeveel pagina's er zijn
 hoeveelheid = bereken_hoeveelheid()
 
 # Scrape pagina en verwerk resultaten
-scrape_pagina('/html/body/div/main/div[1]/div[5]/div[5]/div[3]')
-verwerk_resultaten("scraped_cpus.csv", producten, prijzen)
+scrape_pagina('//*[@id="navigation_products"]/div[5]/div[3]/img')
+verwerk_resultaten("scraped_cpus.txt", producten, prijzen)
 
 # -----------------Moederborden----------------- #
 # Stuur selenium nieuwe link voor moederborden
@@ -155,22 +177,22 @@ driver.find_element(By.XPATH,'//*[@id="showmoreprodList7"]').click()
 time.sleep(1)
 
 # Klik
-driver.find_element(By.XPATH, "/html/body/div/main/div[1]/div[6]/div[3]/div/div[5]/div/div[1]/label").click()
+driver.find_element(By.XPATH, '//*[@id="labelzoek_7-29"]').click()
 time.sleep(1)
 
 # Klik
-driver.find_element(By.XPATH, "/html/body/div/main/div[1]/div[6]/div[3]/div/div[5]/div/div[2]/label").click()
+driver.find_element(By.XPATH, '//*[@id="labelzoek_7-30"]').click()
 time.sleep(1)
 
 # Klik AM5
-driver.find_element(By.XPATH,"/html/body/div/main/div[1]/div[6]/div[3]/div/div[5]/div/div[5]/label").click()
+driver.find_element(By.XPATH,'//*[@id="navigation_filter"]').click()
 time.sleep(1)
 # Bereken hoeveelheid pagina's
 hoeveelheid = bereken_hoeveelheid()
 
 # Scrape pagina en verwerk resultaten
-scrape_pagina("/html/body/div/main/div[1]/div[6]/div[5]/div[3]")
-verwerk_resultaten("scraped_moederborden.csv", producten, prijzen)
+scrape_pagina('//*[@id="navigation_products"]/div[5]/div[3]')
+verwerk_resultaten("scraped_moederborden.txt", producten, prijzen)
 
 # ----------------- Coolers ----------------- #
 time.sleep(1)
@@ -189,7 +211,7 @@ prijzen.append(scrape_prijs_specifiek("https://www.megekko.nl/product/1994/11289
 producten.append("Artic Liquid Freezer II 240")
 prijzen.append(scrape_prijs_specifiek("https://www.megekko.nl/product/1986/1086852/Complete-sets-CPU/Arctic-Liquid-Freezer-II-240?s_o=1"))
 
-verwerk_resultaten("results_coolers.csv", producten, prijzen)
+verwerk_resultaten("results_coolers.txt", producten, prijzen)
 
 # ----------------- Behuizingen ----------------- #
 prijzen = []
@@ -223,4 +245,35 @@ driver.get("https://www.megekko.nl/Computer/Componenten/Hard-disks")
 time.sleep(1)
 hoeveelheid = bereken_hoeveelheid()
 scrape_pagina('//*[@id="navigation_products"]/div[5]/div[3]')
-resultaten = verwerk_resultaten("scraped_opslag.csv", producten, prijzen)
+verwerk_resultaten("scraped_opslag.txt", producten, prijzen)
+
+# ----------------- DDR4 Ram ----------------- #
+prijzen = []
+producten = []
+
+time.sleep(1)
+driver.get("https://www.megekko.nl/Computer/Componenten/Geheugen")
+time.sleep(1)
+driver.find_element(By.XPATH, '//*[@id="labelzoek_8-8"]').click()
+time.sleep(1)
+hoeveelheid = bereken_hoeveelheid()
+scrape_pagina('//*[@id="navigation_products"]/div[5]/div[3]')
+verwerk_resultaten("scraped_ram_ddr4.txt", producten, prijzen)
+
+# ----------------- DDR5 Ram ----------------- #
+prijzen = []
+producten = []
+
+time.sleep(1)
+driver.quit()
+driver = webdriver.Chrome()
+driver.get("https://www.megekko.nl/Computer/Componenten/Geheugen")
+time.sleep(1)
+driver.find_element(By.XPATH, '//*[@id="CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"]').click()
+time.sleep(1)
+driver.find_element(By.XPATH, '//*[@id="checkProductList8-18"]').click()
+time.sleep(1)
+hoeveelheid = bereken_hoeveelheid()
+scrape_pagina('//*[@id="navigation_products"]/div[5]/div[3]')
+verwerk_resultaten("scraped_ram_ddr5.txt", producten, prijzen)
+

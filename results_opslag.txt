@@ -1,8 +1,8 @@
-2,kingston nv2 1tb m.2 ssd,61
-75,fastro ms200 2tb m.2 ssd,123
-9,kingston kc3000 1tb m.2 ssd,99
-241,kingston xs2000 2tb externe ssd,239
-1,samsung 980 pro 1tb m.2 ssd,151
-6,kingston nv2 500gb m.2 ssd,37
-84,"seagate hdd nas 3.5"" 4tb st4000ne001 ironwolf pro",119
-113,"corsair ssd bracket 3.5'' to 2.5""",7
+seagate hdd 3.5" 2tb st2000dm008 barracuda:49
+pny cs900 240gb ssd:18
+wd green 480gb sata ssd:29
+pny cs900 960gb ssd:65
+kingston nv2 1tb m.2 ssd:57
+fastro ms200 2tb m.2 ssd:114
+crucial mx500 4tb ssd:299
+samsung 870 qvo 8tb ssd:699

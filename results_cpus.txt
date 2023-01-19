@@ -1,8 +1,21 @@
-,productnaam,prijs
-2,amd ryzen 5 5600 processor,149
-9,amd ryzen 7 5700g processor,219
-5,amd ryzen 5 5600g processor,129
-0,amd ryzen 5 5600x processor,179
-3,amd ryzen 7 5800x3d processor,399
-11,amd ryzen 5 3600 processor,189
-6,amd ryzen 9 5900x processor,379
+intel core i9 13900k:649
+intel core i7 13700kf:448
+intel core i5 13600kf:325
+amd ryzen 5 5600x processor:185
+intel core i5 12400f:174
+amd ryzen 7 7700x:379
+amd ryzen 9 7950x:649
+amd ryzen 9 7900x:499
+amd ryzen 5 7600x:276
+amd ryzen 7 5800x3d processor:356
+intel core i9 12900kf:499
+intel core i7 12700kf:395
+amd ryzen 9 5950x processor:545
+amd ryzen 9 5900x processor:378
+amd ryzen 7 5800x processor:258
+amd ryzen 7 5700x processor:208
+intel core i5 12600k:299
+intel core i5 12600kf:299
+intel core i3 12100f:112
+amd ryzen 5 4500 processor:82
+amd ryzen 5 5500 processor:165

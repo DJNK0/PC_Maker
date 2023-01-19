@@ -1,79 +1,90 @@
-,productnaam,prijs
-AMD Ryzen 5 5600X processor:179
-AMD Ryzen 7 5800X3D processor:399
-AMD Ryzen 7 5800X processor:249
-AMD Ryzen 5 7600X:281
-Intel Core i7 13700K:489
-AMD Ryzen 5 5600 processor:149
-AMD Ryzen 7 5700X processor:209
-Intel Core i5 13600K:379
-AMD Ryzen 7 7700X:395
-AMD Ryzen 9 7950X:649
-Intel Core i9 13900K:735
-AMD Ryzen 9 5900X processor:398
-AMD Ryzen 5 5600G processor:129
-Intel Core i5 12400F:179
-AMD Ryzen 9 7900X:529
-Intel Core i5 13600KF:349
-AMD Ryzen 5 5500 processor:108
-Intel Core i5 12600K:309
-AMD Ryzen 7 5700G processor:219
-Intel Core i7 12700K:399
-AMD Ryzen 9 5950X processor:559
-Intel Core i3 12100F:114
-Intel Core i9 12900K:595
-Intel Core i7 13700KF:449
-AMD Ryzen 5 3600 processor:199
-AMD Ryzen 5 4500 processor:89
-Intel Core i5 12400:219
-Intel Core i5 12600KF:299
-Intel Core i9 13900KF:699
-AMD Ryzen 5 4600G processor:119
-Intel Core i7 12700F:349
-Intel Core i7 12700KF:395
-Intel Core i3 12100:149
-Intel Core i7 12700:369
-Intel Core i5 12600:279
-AMD Ryzen 5 3400G processor:219
-Intel Core i9 12900KS:649
-Intel Core i9 12900KF:529
-AMD Ryzen 7 3800X processor:289
-Intel Core i5 12500:259
-AMD Ryzen 5 2600 processor:198
-AMD Ryzen 5 3600X processor:269
-AMD Ryzen 9 3900X processor:589
-AMD Ryzen 5 5600 3,5 GHz 32 MB L3 processor:157
-AMD Ryzen 3 4100 processor:99
-AMD Ryzen 3 3200G processor:134
-AMD Ryzen 7 2700X processor:164
-Intel Core i9 12900:609
-Intel Core i9 12900F:579
-AMD Ryzen 3 3100 processor:110
-Intel Pentium Gold G7400:105
-Intel Celeron G6900:74
-Intel Core i7-12700 Tray:389
-AMD Ryzenï¿½ 5 PRO 4650G processor:289
-Intel Core i5-12400 Tray:229
-AMD Ryzen 9 3950X processor:699
-AMD Ryzenï¿½ 5 2600X processor:249
-AMD Ryzenï¿½ 7 3800XT processor:399
-AMD Ryzenï¿½ 5 1600 processor:164
-AMD Ryzen 5 4500 3,6 GHz 8 MB L3 processor:158
-AMD Ryzen 5 3500X processor:193
-AMD Athlon 3000G processor:103
-AMD Ryzen 5 3600XT processor:319
-AMD Ryzen 9 3900XT processor:649
-AMD Ryzen 3 2200G processor:157
-AMD Ryzen 3 1200 processor:120
-AMD Athlon 200GE processor:112
-AMD Ryzen 7 1800X processor:399
-AMD Ryzen 5 PRO 4650G 3,7 GHz 8 MB L2 & L3 processor:289
-AMD Ryzen 7 2700 Tray processor:219
-AMD Ryzen 7 2700 MAX processor:429
-AMD Ryzen 5 2600X Tray processor:178
-AMD X4 950 processor:72
-AMD A6 9500 processor:82
-AMD Ryzen 3 4100 3,8 GHz 4 MB L3 processor:131
-Ryzen 3 2200G processor:126
-AMD Ryzen 5 3400G Tray processor:192
-AMD Athlon 240GE processor:118
+amd ryzen 5 5600x processor:185
+amd ryzen 7 5800x processor:258
+amd ryzen 5 5600 processor:154
+amd ryzen 7 5800x3d processor:356
+intel core i7 13700k:469
+amd ryzen 7 5700x processor:208
+amd ryzen 5 7600x:276
+intel core i9 13900k:649
+amd ryzen 5 5600g processor:144
+intel core i5 13600k:359
+intel core i5 12400f:174
+amd ryzen 9 5900x processor:378
+amd ryzen 7 7700x:379
+intel core i5 13600kf:325
+amd ryzen 9 7950x:649
+amd ryzen 5 3600 processor:189
+amd ryzen 9 7900x:499
+intel core i5 12600k:299
+amd ryzen 5 5500 processor:165
+intel core i7 12700k:396
+amd ryzen 7 5700g processor:207
+intel core i7 13700kf:448
+intel core i9 13900ks:749
+intel core i3 12100f:112
+amd ryzen 9 5950x processor:545
+amd ryzen 5 7600:254
+intel core i9 12900k:519
+intel core i5 13400f:231
+intel core i5 12400:199
+amd ryzen 5 4500 processor:82
+intel core i9 13900kf:654
+amd ryzen 5 4600g processor:108
+intel core i7 12700f:339
+intel core i5 13500:281
+intel core i5 12600kf:299
+intel core i7 12700:365
+amd ryzen 7 7700:369
+intel core i3 12100:149
+intel core i9 12900kf:499
+amd ryzen 9 7900:488
+intel core i7 12700kf:395
+amd ryzen 5 3400g processor:219
+intel core i3 13100f:132
+intel core i5 12500:249
+intel core i5 12600:279
+intel core i5 13400:261
+intel core i9 12900ks:649
+amd ryzen 5 3600x processor:269
+intel core i7 13700f:419
+amd ryzen 5 2600 processor:198
+intel core i9 13900:649
+amd ryzen 9 3900x processor:589
+intel core i7 13700:451
+intel core i3 13100:162
+amd ryzen 3 4100 processor:99
+amd ryzen 3 3200g processor:134
+intel celeron g6900:74
+amd ryzen 3 3100 processor:110
+amd ryzen™ 5 pro 4650g processor:299
+intel pentium gold g7400:113
+intel core i9 13900f:625
+amd ryzen 7 2700x processor:141
+intel core i7-12700 tray:369
+amd ryzen 5 5600 3,5 ghz 32 mb l3 processor:259
+intel core i5-12400 tray:209
+amd ryzen™ 5 1600 processor:162
+intel core i9 12900:609
+amd ryzen™ 5 2600x processor:249
+intel core i9 12900f:579
+amd ryzen 3 1200 processor:127
+amd ryzen™ 7 3800xt processor:459
+amd ryzen 9 3950x processor:790
+amd ryzen 5 3500x processor:193
+amd ryzen 5 3600xt processor:319
+amd ryzen 3 2200g processor:157
+amd athlon 3000g processor:103
+amd ryzen 5 4500 3,6 ghz 8 mb l3 processor:163
+amd ryzen 9 3900xt processor:649
+amd ryzen 7 1800x processor:399
+amd athlon 200ge processor:112
+amd ryzen 5 2600x tray processor:178
+amd ryzen 7 2700 tray processor:219
+amd ryzen 5 pro 4650g 3,7 ghz 8 mb l2 & l3 processor:289
+amd ryzen 7 2700 max processor:429
+amd x4 950 processor:72
+amd a6 9500 processor:82
+ryzen 3 2200g processor:126
+amd ryzen 3 4100 3,8 ghz 4 mb l3 processor:133
+amd ryzen 5 3400g tray processor:192
+amd athlon 240ge processor:118

@@ -1,0 +1,36 @@
+be quiet! system power 9 400w cm psu / pc voeding bronze:53
+be quiet! system power 10 450w psu / pc voeding bronze:49
+be quiet! system power 9 500w cm psu / pc voeding bronze:63
+be quiet! system power 10 550w psu / pc voeding bronze:59
+be quiet! system power b9 600w psu / pc voeding bronze:60
+be quiet! system power 10 650w psu / pc voeding bronze:64
+evga 700 bq, 80+ bronze 700w psu / pc voeding bronze:69
+evga 750 br 750w 80+ bronze psu / pc voeding bronze:69
+be quiet! straight power 11 450w psu / pc voeding gold:96
+seasonic core gold gc 500 psu / pc voeding gold:69
+seasonic g12 gc-550 psu / pc voeding gold:69
+evga 600 gd, 80+ gold 600w psu / pc voeding gold:62
+seasonic g12 gc-650 psu / pc voeding gold:79
+evga 700 gd 700w 80+ gold psu / pc voeding gold:83
+seasonic g12 gc-750 psu / pc voeding gold:89
+seasonic g12 gc-850 psu / pc voeding gold:99
+seasonic prime fanless px-500 psu / pc voeding platinum:184
+be quiet! straight power 11 550w platinum psu / pc voeding platinum:129
+seasonic prime px-1600 psu / pc voeding platinum:409
+cooler master xg platinum plus 650w psu / pc voeding platinum:129
+silverstone sx700-pt power supply unit 700 w 20+4 pin atx sfx zwart psu / pc voeding platinum:177
+be quiet! straight power 11 750w platinum psu / pc voeding platinum:146
+be quiet! straight power 11 850w platinum psu / pc voeding platinum:171
+silverstone sfx series sx1000-lpt psu / pc voeding platinum:259
+silverstone st1200-pts platinum 1200w psu / pc voeding platinum:199
+silverstone st1500-ti 1500w atx zwart power supply unit psu / pc voeding titanium:399
+seasonic prime fanless tx-600 psu / pc voeding titanium:249
+seasonic prime tx-650 psu / pc voeding titanium:219
+seasonic prime fanless tx-700 psu / pc voeding titanium:271
+be quiet! dark power 12 750w psu / pc voeding titanium:194
+be quiet! dark power 12 850w psu / pc voeding titanium:244
+be quiet! dark power 13 1000w psu / pc voeding titanium:309
+silverstone st1100-ti 1100w atx zwart power supply unit psu / pc voeding titanium:319
+be quiet! dark power pro 12 1200w psu / pc voeding titanium:375
+silverstone st1300-ti 1300w atx zwart power supply unit psu / pc voeding titanium:389
+seasonic prime tx-1600 psu / pc voeding titanium:539

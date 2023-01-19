@@ -1,11 +1,12 @@
-147,asus tuf gaming z690-plus d4,225
-362,msi mag b660m mortar ddr4,179
-8,gigabyte b550 gaming x v2 moederbord,129
-84,nzxt n7 z790 - matte black,349
-109,asus tuf gaming b550m-e moederbord,129
-252,asus rog strix b550-f gaming(wi-fi) moederbord,269
-99,gigabyte b660i aorus pro ddr4,229
-20,asrock b550m pg riptide moederbord,119
-66,msi pro b660m-a wifi ddr4,154
-3,asus tuf gaming b550-plus wifi ii moederbord,164
-76,asus tuf gaming a520m-plus ii amd a520 socket am4 micro atx moederbord,119
+asrock b660m-hdv:99
+asrock b650m pg riptide:189
+gigabyte b650 aorus elite ax:319
+gigabyte b450m k (rev. 1.0) amd b450 socket am4 micro atx:79
+msi pro b660m-p ddr4:109
+asus tuf gaming b660m-plus d4:169
+gigabyte z690 aorus pro:339
+msi mag z790 tomahawk wifi:329
+gigabyte b760m aorus elite ax:199
+asus tuf gaming b650m-plus:249
+asus tuf gaming x670e-plus:345
+asus rog maximus z790 hero:759
