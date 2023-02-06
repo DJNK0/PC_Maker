@@ -2,11 +2,6 @@
 import collections
 import re
 
-def contains(substring, string):
-    c1 = collections.Counter(string)
-    c2 = collections.Counter(substring)
-    return not(c2-c1)
-
 def verwijder_haakjes(str):
     data = re.search("<(.*)>", str)
     if data != None:
@@ -14,14 +9,13 @@ def verwijder_haakjes(str):
         data = data.split(",")
 
     str = re.sub('<.*?>', '', str)
+
     return(str, data)
 
-
-    return str
-def scheid_str(str):
+def scheid_str(str, teken):
     for i, char in enumerate(str):
         # Scheid tussen de dubbele punt
-        if char == ":":
+        if char == teken:
 
             helft_1 = str[i + 1:]
             helft_2 = str[:i]
@@ -46,13 +40,9 @@ def check_specifiek(str, str_2):
 def check_of_in_woord(l, str_vergelijk):
     for word in l:
         if word in str_vergelijk:
-
             continue
-
         else:
-
             return False
-
     return True
 
 
@@ -68,30 +58,53 @@ def filter(gewenste_file, gescrapede_file, results_file):
             # Maak alles kleine letters en verwijder extra lege lijnen
             row = row.replace("\n", "").lower()
             row, data = verwijder_haakjes(row)
-            print(row)
-            print(data)
+
+            socket = ""
+            snelheid = ""
+            if gewenste_file == "cpus.txt":
+                socket, row = scheid_str(row, ";")
+
+            elif gewenste_file == "ram_ddr4.txt" or gewenste_file == "ram_ddr5.txt":
+                snelheid = re.search('\|(.*)\|', row).group(1)
+                grootte = re.search('~(.*)~', row).group(1)
+                row = row.replace("~", "")
+
             # Scheid de videokaart namen
-            row = scheid_str(row)
-
-
+            row = scheid_str(row, ":")
 
             # Maak lijst voor matches
             matches = []
 
             # Open de file met gescrapete videokaarten
-            with open(gescrapede_file, "r") as scraped_f:
+            with open(gescrapede_file, "r+") as scraped_f:
+                content = scraped_f.readlines()
                 # Loep over de gescrapete videokaarten
-                for i, line in enumerate(scraped_f.readlines()):
+                for i, line in enumerate(content):
+
+                    naam_oud = line.lower()
+                    naam_oud= naam_oud.strip("\n")
+
+                    if snelheid != "":
+                        naam_oud += f"~{grootte}~"
+                        naam_oud += f";{snelheid}\n"
+
+                    if data != None:
+                        naam_oud += "<" + ', '.join(data) + ">"
+                        if socket != "":
+                            naam_oud += f";{socket}"
+                        naam_oud = "".join(line.strip() for line in naam_oud.splitlines()) + "\n"
+
+
                     # Scheid de naam en prijs
-                    naam = scheid_str(line)[1].lower()
+                    naam = scheid_str(line, ":")[1].lower()
 
                     if "|" in row[0]:
 
                         gesplit = row[0].split("|")
                         if check_of_in_woord(gesplit, naam):
                             # Voeg hem toe samen met prijs en index aan de lijst met matches
-                            prijs = int(scheid_str(line)[0].strip("\n"))
-                            matches.append((prijs, i))
+                            prijs = int(scheid_str(line, ":")[0].strip("\n"))
+                            matches.append((prijs,naam_oud, i))
 
                     check = check_specifiek(row, naam)
 
@@ -104,14 +117,19 @@ def filter(gewenste_file, gescrapede_file, results_file):
                         if row[0] in naam or row[1] in naam:
 
                             # Voeg hem toe samen met prijs en index aan de lijst met matches
-                            prijs = int(scheid_str(line)[0].strip("\n"))
-                            matches.append((prijs, i))
+                            if gewenste_file == "moederborden.txt":
+                                naam_oud += f";{row[0]}\n"
+                                print(naam_oud)
+
+                            prijs = int(scheid_str(line, ":")[0].strip("\n"))
+                            matches.append((prijs, naam_oud, i))
 
             # Sorteer matches op prijs
             matches.sort()
 
             # Als er matches zijn
             if len(matches) != 0:
+
                 # Voeg goedkoopste match toe aan lijst met results
                 results.append(matches[0])
 
@@ -124,7 +142,7 @@ def filter(gewenste_file, gescrapede_file, results_file):
     # Voeg results toe aan file met results
     with open(results_file, "w") as f:
         for result in results:
-            f.write(lines[result[1]])
+            f.write(result[1])
 
 # Call filter functie op zowel videokaarten als processoren
 filter("cpus.txt", "scraped_cpus.txt", "results_cpus.txt")

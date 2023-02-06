@@ -1,8 +1,1 @@
-seagate hdd 3.5" 2tb st2000dm008 barracuda:49
-pny cs900 240gb ssd:18
-wd green 480gb sata ssd:29
-pny cs900 960gb ssd:65
-kingston nv2 1tb m.2 ssd:57
-fastro ms200 2tb m.2 ssd:114
-crucial mx500 4tb ssd:299
-samsung 870 qvo 8tb ssd:699
+seagate hdd 3.5" 2tb st2000dm008 barracuda:49pny cs900 240gb ssd:18kingston a400 480gb ssd:28intenso high performance 2.5" 960gb ssd:60lexar nm620 1tb pci express 3.0 3d tlc nand nvme m.2 ssd:49lexar nm620 2tb m.2 pci express 3.0 3d tlc nand nvme ssd:109crucial mx500 4tb ssd:299samsung 870 qvo 8tb ssd:699

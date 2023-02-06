@@ -1,24 +1,26 @@
-gainward geforce rtx 4090 phantom videokaart:1899
-inno3d geforce rtx 4080 x3 16gb gddr6x hdmi 3xdp videokaart:1379
-gigabyte geforce rtx 4070 ti eagle 12gb videokaart:909
-gigabyte geforce rtx 3090 eagle oc 24g videokaart:2160
-pny geforce rtx 3080 xlr8 gaming revel epic-x 10g videokaart:845
-inno3d geforce rtx 3070 ti x3 oc videokaart:679
-inno3d geforce rtx 3070 twin x2 lhr nvidia 8 gb gddr6 videokaart:579
-inno3d geforce rtx 3060 ti twin x2 lhr nvidia 8 gb gddr6 videokaart:449
-inno3d geforce rtx 3060 twin x2 nvidia 8 gb gddr6 videokaart:354
-inno3d geforce rtx 3050 twin x2 videokaart:293
-asus geforce gtx 1660 ti tuf-gtx1660ti-o6g-evo-gaming videokaart:269
-msi geforce gtx 1660 super ventus xs oc videokaart:274
-inno3d geforce gtx 1650 gddr6 twin x2 oc videokaart:177
-asus tuf gaming tuf-rx7900xt-o20g-gaming amd 20 gb gddr6 videokaart:1310
-asus radeon rx 6950 xt tuf-rx6950xt-o16g-gaming videokaart:979
-gigabyte radeon rx 6900 xt aorus master 16g 2.0 videokaart:1380
-powercolor radeon rx 6800 xt red devil videokaart:699
-msi radeon rx 6750 xt mech 2x 12g oc videokaart:469
-vga asrock radeon rx 6700 xt challenger d 12g videokaart:429
-asus radeon rx 6650 xt dual-rx6650xt-o8g videokaart:349
-asrock radeon rx 6600 xt challenger d 8g videokaart:399
-powercolor rx 6600 fighter 8gb videokaart:269
-msi radeon rx 6500 xt mech 2x 4g oc videokaart:194
-msi radeon rx 6400 aero itx 4g videokaart:155
+gainward geforce rtx 4090 phantom videokaart:1849<100, 100, 450>
+inno3d geforce rtx 4080 x3 16gb videokaart:1339<80, 90, 320>
+inno3d geforce rtx 4070 ti x3 12gb videokaart:909<66, 74, 285>
+asus geforce rtx 3080 ti rog-strix-lc-rtx3080ti-o12g-gaming videokaart:2599<65, 69, 320>
+asus geforce rtx 3080 tuf-rtx3080-o10g-v2-gaming videokaart:799<58, 62, 320>
+inno3d geforce rtx 3070 ti x3 8gb gddr6x hdmi 3xdp videokaart:679<48, 50, 290>
+gigabyte geforce rtx 3070 eagle oc 8g 2.0 videokaart:579<45, 47, 220>
+inno3d geforce rtx 3060 ti twin x2 lhr nvidia 8 gb gddr6 videokaart:429<38, 41, 200>
+inno3d geforce rtx 3060 twin x2 nvidia 8 gb gddr6 videokaart:349<30, 35, 170>
+inno3d geforce rtx 3050 twin x2 videokaart:285<22, 28, 130>
+palit ne6166t018j9-161f geforce gtx 1660 ti 6 gb gddr6 videokaart:339<22,  0,  120>
+msi geforce gtx 1660 super ventus xs oc videokaart:264<21, 0, 125>
+msi geforce gtx 1660 super ventus xs oc videokaart:264<19, 0, 120>
+inno3d geforce gtx 1650 twin x2 oc 4gb videokaart:174<13, 0, 75>
+asus tuf gaming tuf-rx7900xt-o20g-gaming amd 20 gb gddr6 videokaart:1370<70, 70, 300>
+asus radeon rx 6950 xt tuf-rx6950xt-o16g-gaming videokaart:979<65, 66, 335>
+asus rog-strix-lc-rx6900xt-t16g-gaming videokaart:1220<61, 63, 300>
+powercolor radeon rx 6800 xt red dragon 16gb videokaart:649<57, 60, 300>
+powercolor radeon rx 6800 xt red dragon 16gb videokaart:649<49, 52, 250>
+asrock radeon rx 6750 xt challenger pro 12g oc videokaart:459<42, 45, 250>
+vga asrock radeon rx 6700 xt challenger d 12g videokaart:409<39, 41, 230>
+xfx radeon rx 6650 xt swft 210 videokaart:345<35, 39, 176>
+asrock radeon rx 6600 xt challenger d 8g videokaart:399<34, 37, 160>
+powercolor rx 6600 fighter 8gb videokaart:259<29, 30, 132>
+powercolor radeon rx 6500 xt fighter 4gb videokaart:179<17, 18, 107>
+xfx radeon rx 6400 speedster swft 105 videokaart:149<12, 13, 53>

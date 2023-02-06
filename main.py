@@ -100,7 +100,6 @@ def scrape_pagina(next_page_xpath, naam_toevoeging =""):
             if p is not None:
                 nieuw_p = p.text.strip(",-")
 
-
                 # Voeg deze prijs toe aan lijst
                 prijzen.append(nieuw_p)
             # Voeg niks toe als de prijs niet gevonden wordt
@@ -180,6 +179,9 @@ time.sleep(1)
 driver.find_element(By.XPATH, '//*[@id="labelzoek_7-29"]').click()
 time.sleep(1)
 
+driver.find_element(By.XPATH, '//*[@id="labelzoek_7-19"]').click()
+time.sleep(1)
+
 # Klik
 driver.find_element(By.XPATH, '//*[@id="labelzoek_7-30"]').click()
 time.sleep(1)
@@ -224,15 +226,15 @@ producten.append(driver.find_element(By.XPATH, '//*[@id="content_list_content"]/
 prijzen.append(driver.find_element(By.XPATH, '//*[@id="content_list_content"]/div[1]/div/div[2]/a/h2').text)
 
 # Zalman t7
-producten.append("Zalman T7 Midi Tower Behuizing")
-prijzen.append(scrape_prijs_specifiek("https://www.megekko.nl/product/2013/1106377/Midi-Tower-Behuizingen/Zalman-T7-Midi-Tower-Behuizing?s_o=1"))
+producten.append("Aerocool Hexform")
+prijzen.append(scrape_prijs_specifiek("https://www.megekko.nl/product/2012/1073924/Micro-ATX-Behuizingen/Aerocool-Hexform-Mini-Tower-Zwart-Micro-ATX-Behuizing"))
 
 # Corsair 4000D Airflow
 producten.append("Corsair 4000D Airflow Tempered Glass Black Midi Tower Behuizing")
 prijzen.append(scrape_prijs_specifiek("https://www.megekko.nl/product/2013/1113622/Midi-Tower-Behuizingen/Corsair-4000D-Airflow-Tempered-Glass-Black-Midi-Tower-Behuizing?s_o=1"))
 
 producten.append("Fractal Design Torrent Gray + Light TG Midi Tower Behuizing")
-prijzen.append(scrape_prijs_specifiek("https://www.megekko.nl/product/2013/375186/Midi-Tower-Behuizingen/Fractal-Design-Torrent-Compact-White-TG-Clear-Tint-Midi-Tower-Behuizing?s_o=2"))
+prijzen.append(scrape_prijs_specifiek("https://www.megekko.nl/product/2013/1130111/Midi-Tower-Behuizingen/Corsair-5000D-Airflow-Tempered-Glass-Black-Midi-Tower-Behuizing?s_o=2"))
 
 verwerk_resultaten("behuizing_results.txt", producten, prijzen)
 

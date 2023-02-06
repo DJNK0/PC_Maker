@@ -1,4 +1,4 @@
-34,:LC-Power 7034B -Toren Zwart computer Midi Tower Behuizing
-Zalman T7 Midi Tower Behuizing:49
-Corsair 4000D Airflow Tempered Glass Black Midi Tower Behuizing:103
-Fractal Design Torrent Gray + Light TG Midi Tower Behuizing:139
+32,:LC Power LC-7036B-ON Midi Tower Behuizing
+Aerocool Hexform:49
+Corsair 4000D Airflow Tempered Glass Black Midi Tower Behuizing:109
+Fractal Design Torrent Gray + Light TG Midi Tower Behuizing:174

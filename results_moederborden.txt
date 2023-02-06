@@ -1,12 +1,15 @@
-asrock b660m-hdv:99
-asrock b650m pg riptide:189
-gigabyte b650 aorus elite ax:319
-gigabyte b450m k (rev. 1.0) amd b450 socket am4 micro atx:79
-msi pro b660m-p ddr4:109
-asus tuf gaming b660m-plus d4:169
-gigabyte z690 aorus pro:339
-msi mag z790 tomahawk wifi:329
-gigabyte b760m aorus elite ax:199
-asus tuf gaming b650m-plus:249
-asus tuf gaming x670e-plus:345
-asus rog maximus z790 hero:759
+asrock b660m-hdv:99;b660
+asrock b650m pg riptide:179;b650
+gigabyte b650 aorus elite ax:299;b650 aorus elite ax
+asrock b550m-hdv moederbord:79;b550
+gigabyte b550m aorus elite moederbord:114;b550m aorus elite
+asrock b450m-hdv r4.0 moederbord:62;b450
+msi pro b660m-p ddr4:109;msi pro b660m-p
+asus tuf gaming b660m-plus d4:169;tuf gaming b660m-plus
+gigabyte z790 aorus elite ax ddr4:299;z790 aorus elite
+msi mag z790 tomahawk wifi:329;z790 tomahawk!ddr4
+gigabyte b550 aorus elite v2 moederbord:144;gigabyte b550 aorus elite v2 moederbord
+asus tuf gaming b650m-plus:239;tuf gaming b650
+msi mag b550 tomahawk moederbord:164;msi mag b550 tomahawk
+asus tuf gaming x670e-plus:345;asus tuf gaming x670e-plus
+asus rog maximus z790 hero:759;rog maximus z790 hero

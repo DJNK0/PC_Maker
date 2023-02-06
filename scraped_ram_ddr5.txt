@@ -2,225 +2,243 @@ corsair ddr5 vengeance 2x16gb 5600:162
 corsair ddr5 vengeance rgb 2x16gb 5600:249
 g.skill ddr5 trident z5 rgb 2x16gb 6000mhz cl36 black f5-6000j3636f16gx2-tz5rk:199
 kingston ddr5 fury beast 2x16gb 6000:165
-kingston ddr5 fury beast 2x8gb 5200:82
 corsair ddr5 vengeance rgb 2x16gb 5200:169
+kingston ddr5 fury beast 2x8gb 5200:81
+crucial ddr5 2x16gb 5600:139
 kingston ddr5 fury beast 2x16gb 5200:139
-corsair ddr5 vengeance 2x16gb 5200:157
-kingston ddr5 fury beast 2x32gb 5600:274
-kingston ddr5 fury beast rgb 2x16gb 6000:184
+kingston ddr5 fury beast 2x32gb 5600:269
 corsair ddr5 vengeance rgb 2x16gb 6000:319
-kingston ddr5 fury beast 2x8gb 5600:85
+kingston ddr5 fury beast rgb 2x16gb 6000:184
+kingston ddr5 fury beast 2x8gb 5600:83
 corsair ddr5 vengeance 2x16gb 6000:186
-g.skill ddr5 trident z5 rgb 2x16gb 6000mhz cl40 black f5-6000j4040f16gx2-tz5rk:219
+corsair ddr5 vengeance 2x16gb 5200:157
+kingston ddr5 fury beast 2x16gb 5600:152
+corsair ddr5 vengeance 2x32gb 5200:299
+kingston ddr5 fury beast 2x8gb 6000:94
+kingston ddr5 fury beast rgb 2x16gb 5600:164
 corsair ddr5 vengeance rgb 2x16gb 5600 white:176
 kingston ddr5 fury beast 2x16gb 4800:136
-kingston ddr5 fury beast 2x8gb 6000:94
 g.skill ddr5 trident z5 rgb 2x16gb 6400mhz cl32 black f5-6400j3239g16gx2-tz5rk:279
-corsair ddr5 vengeance 2x32gb 5200:299
-kingston ddr5 fury beast rgb 2x16gb 5600:164
-kingston ddr5 fury beast 2x16gb 5600:152
-corsair ddr5 vengeance 2x32gb 6000:359
-corsair ddr5 dominator platinum rgb 2x16gb 5200:195
 g.skill trident z neo f5-6000j3038f16gx2-tz5nr geheugenmodule 32 gb:245
-g.skill ddr5 trident z5 rgb 2x16gb 6000mhz cl36 silver f5-6000j3636f16gx2-tz5rs:229
-corsair ddr5 dominator platinum rgb 2x16gb 6200:236
-g.skill trident z neo f5-6000j3238f16gx2-tz5n geheugenmodule 32 gb:219
-kingston ddr5 fury renegade rgb 2x16gb 6400:229
-corsair ddr5 vengeance 2x16gb 4800:144
-g.skill trident z rgb f5-6000j3040g32gx2-tz5rk geheugenmodule 64 gb 2 x 32 gb ddr5 6000 mhz:629
-g.skill flare x (for amd) f5-6000j3238f16gx2-fx5 geheugenmodule 32 gb:229
-corsair ddr5 dominator platinum rgb 2x16gb 6000:231
-kingston ddr5 fury beast 2x32gb 5200:254
-kingston ddr5 fury beast rgb 2x8gb 5600:101
-corsair ddr5 vengeance rgb 2x16gb 6000 white:319
-kingston ddr5 fury beast 2x8gb 4800:80
-g.skill trident z neo f5-6000j3038f16gx2-tz5n geheugenmodule 32 gb:249
-corsair ddr5 vengeance rgb 2x16gb 7200:359
-corsair ddr5 vengeance 2x16gb 7200:349
-kingston ddr5 fury beast rgb 2x8gb 5200:97
-kingston ddr5 fury renegade 2x16gb 6400:212
 kingston ddr5 fury beast rgb 2x8gb 6000:109
+g.skill ddr5 trident z5 rgb 2x16gb 6000mhz cl40 black f5-6000j4040f16gx2-tz5rk:219
+corsair ddr5 vengeance 2x32gb 6000:359
+g.skill trident z rgb f5-6000j3040g32gx2-tz5rk geheugenmodule 64 gb 2 x 32 gb ddr5 6000 mhz:589
+corsair ddr5 dominator platinum rgb 2x16gb 5200:195
+kingston ddr5 fury renegade 2x16gb 6400:192
+kingston ddr5 fury beast 2x8gb 4800:80
+corsair ddr5 vengeance rgb 2x16gb 6000 white:319
+corsair ddr5 dominator platinum rgb 2x16gb 6000:231
+kingston ddr5 fury renegade rgb 2x16gb 6400:219
+corsair ddr5 dominator platinum rgb 2x16gb 6200:229
+corsair ddr5 vengeance 2x16gb 7200:299
+corsair ddr5 vengeance 2x16gb 4800:144
+kingston ddr5 fury beast rgb 2x8gb 5600:99
+kingston ddr5 fury renegade rgb 2x16gb 6000:189
+kingston ddr5 fury beast 2x32gb 5200:254
 corsair ddr5 dominator platinum rgb 2x16gb 5600 white:215
-g.skill ddr5 trident z5 2x16gb 6400mhz cl32 black f5-6400j3239g16gx2-tz5k:249
+g.skill ddr5 trident z5 rgb 2x16gb 6000mhz cl36 silver f5-6000j3636f16gx2-tz5rs:229
+kingston ddr5 fury beast rgb 2x8gb 5200:97
 corsair ddr5 vengeance rgb 2x16gb 5200 white:169
-corsair ddr5 vengeance rgb 2x32gb 5600:344
-corsair ddr5 vengeance 2x16gb 5200 white:154
-corsair ddr5 dominator platinum rgb 2x16gb 5600:213
-kingston ddr5 fury renegade rgb 2x16gb 6000:199
-kingston ddr5 fury beast rgb 2x16gb 5200:179
-kingston ddr5 fury beast rgb 2x8gb 4800:94
-kingston ddr5 fury beast rgb 2x32gb 5200:279
-corsair ddr5 vengeance rgb 2x16gb 6200 white:208
-gigabyte ddr5 2x16gb 5200 aorus:179
-corsair ddr5 dominator platinum rgb 4x16gb 5600:459
-corsair ddr5 vengeance rgb 2x16gb 6200:210
-g.skill trident z neo f5-6000j3238f16gx2-tz5nr geheugenmodule 32 gb:269
-corsair ddr5 vengeance rgb 2x16gb 7000:349
-kingston ddr5 fury renegade rgb 2x16gb 7200:379
-g.skill ddr5 trident z5 rgb 2x16gb 6400mhz cl32 silver f5-6400j3239g16gx2-tz5rs:279
-corsair ddr5 dominator platinum rgb 2x32gb 5600:409
-g.skill ripjaws s5 / f5-6000j3040f16gx2-rs5k geheugenmodule 32 gb 2 x 16 gb ddr5:229
-g.skill trident z rgb f5-6600j3440g16gx2-tz5rk geheugenmodule 32 gb 2 x 16 gb ddr5 6600 mhz:279
-kingston ddr5 fury beast rgb 2x32gb 5600:289
-g.skill ddr5 trident z5 rgb 2x16gb 5600mhz cl36 black f5-5600j3636c16gx2-tz5rk:229
-kingston ddr5 fury beast 1x16gb 5200:83
-kingston ddr5 fury beast 2x32gb 4800:249
-kingston ddr5 fury renegade 2x16gb 6000:184
+g.skill trident z neo f5-6000j3238f16gx2-tz5n geheugenmodule 32 gb:199
 corsair ddr5 dominator platinum rgb 2x16gb 6200 white:229
-g.skill trident z rgb f5-6000j3040g32gx2-tz5rs geheugenmodule 64 gb 2 x 32 gb ddr5 6000 mhz:519
-kingston ddr5 fury beast 1x32gb 5200:134
+g.skill trident z neo f5-6000j3038f16gx2-tz5n geheugenmodule 32 gb:249
+kingston ddr5 fury renegade 2x16gb 6000:184
+g.skill flare x (for amd) f5-6000j3238f16gx2-fx5 geheugenmodule 32 gb:189
+corsair ddr5 vengeance rgb 2x32gb 5600:344
+corsair ddr5 dominator platinum rgb 4x16gb 5600:449
+kingston ddr5 fury beast rgb 2x16gb 5200:154
+g.skill trident z neo f5-6000j3238f16gx2-tz5nr geheugenmodule 32 gb:239
+g.skill f5-7800j3646h16gx2-tz5rs geheugenmodule 32 gb 2 x 16 gb ddr5 7800 mhz:479
+corsair ddr5 dominator platinum rgb 2x16gb 5600:213
+kingston ddr5 fury beast rgb 2x8gb 4800:94
+gigabyte ddr5 2x16gb 5200 aorus:149
+corsair ddr5 vengeance 4x16gb 5600:349
+corsair ddr5 vengeance rgb 2x16gb 6200:210
+kingston ddr5 fury renegade rgb 2x16gb 7200:349
+corsair ddr5 vengeance rgb 2x16gb 6200 white:208
+kingston ddr5 fury beast rgb 2x32gb 5200:279
+kingston ddr5 fury beast 2x32gb 4800:249
+kingston ddr5 fury beast rgb 2x32gb 5600:289
+g.skill flare x (for amd) f5-6000j3636f16gx2-fx5 geheugenmodule 32 gb:199
 corsair ddr5 vengeance 2x32gb 5600:331
-g.skill trident z rgb f5-6600j3440g16gx2-tz5rs geheugenmodule 32 gb 2 x 16 gb ddr5 6600 mhz:299
-g.skill trident z f5-6000j3040g32gx2-tz5k geheugenmodule 64 gb 2 x 32 gb ddr5 6000 mhz:489
-g.skill f5-7800j3646h16gx2-tz5rs geheugenmodule 32 gb 2 x 16 gb ddr5 7800 mhz:509
-crucial ddr5 1x16gb 4800:72
-corsair ddr5 vengeance 2x16gb 5600 white:173
-g.skill ddr5 trident z5 2x16gb 6000mhz cl40 silver f5-6000j4040f16gx2-tz5s:182
-corsair ddr5 vengeance 2x16gb 6200:195
-kingston ddr5 fury beast rgb 2x16gb 4800:154
-corsair ddr5 vengeance 2x16gb 7000:329
-corsair ddr5 dominator platinum rgb 2x32gb 5200 white:379
+corsair ddr5 vengeance 2x16gb 5200 white:154
+corsair ddr5 vengeance rgb 2x16gb 7000:349
+g.skill ripjaws s5 / f5-6000j3040f16gx2-rs5k geheugenmodule 32 gb 2 x 16 gb ddr5:229
 corsair ddr5 vengeance rgb 2x32gb 6000:391
-kingston ddr5 fury beast 1x16gb 4800:71
-g.skill trident z neo f5-5600j2834f16gx2-tz5n geheugenmodule 32 gb:209
-g.skill ripjaws f5-5600j2834f16gx2-rs5k geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz:219
-kingston ddr5 fury renegade 1x16gb 6000:104
-kingston ddr5 fury beast 1x32gb 5600:144
-corsair ddr5 vengeance 2x32gb 5200 white:309
-g.skill trident z neo f5-5600j3036d16gx2-tz5nr geheugenmodule 32 gb:259
-team group t-force vulcan geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz:171
+corsair ddr5 dominator platinum rgb 2x16gb 6400:279
+kingston ddr5 fury beast 1x16gb 5200:82
 corsair ddr5 vengeance rgb 2x16gb 6400:249
-corsair ddr5 vengeance 4x16gb 5600:359
-corsair ddr5 dominator platinum rgb 2x32gb 5200:350
-crucial ddr5 2x8gb 4800:79
-g.skill ripjaws v f5-6000j3238f16gx2-rs5k geheugenmodule 32 gb 2 x 16 gb ddr5:199
-corsair ddr5 vengeance rgb 4x16gb 5600:399
-team group delta rgb ddr5 geheugenmodule 32 gb 2 x 16 gb 6400 mhz ecc:289
-kingston ddr5 fury beast 1x16gb 5600:78
-kingston ddr5 fury renegade 2x16gb 7200:349
-g.skill trident z neo f5-6000j3636f16gx2-tz5nr geheugenmodule 32 gb:229
-g.skill trident z rgb f5-5600j2834f32gx2-tz5rk geheugenmodule 64 gb 2 x 32 gb ddr5:499
-patriot memory viper venom pvv516g560c40k geheugenmodule 16 gb 2 x 8 gb ddr5 5600 mhz ecc:105
-g.skill trident z neo f5-6000j3636f16gx2-tz5n geheugenmodule 32 gb:209
-lexar ares rgb geheugenmodule 16 gb 2 x 8 gb ddr4 4000 mhz:145
-corsair ddr5 dominator platinum rgb 2x16gb 5200 white:192
-g.skill ripjaws f5-5600j2834f16gx2-rs5w geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz:194
-g.skill flare x (for amd) f5-5600j3036d16gx2-fx5 geheugenmodule 32 gb:199
-kingston ddr5 fury beast 1x32gb 4800:132
-team group t-force delta rgb geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz:162
+g.skill ddr5 trident z5 2x16gb 6400mhz cl32 black f5-6400j3239g16gx2-tz5k:249
+g.skill trident z rgb f5-6000j3040g32gx2-tz5rs geheugenmodule 64 gb 2 x 32 gb ddr5 6000 mhz:449
+corsair ddr5 vengeance rgb 2x16gb 7200:359
+g.skill trident z rgb f5-6600j3440g16gx2-tz5rk geheugenmodule 32 gb 2 x 16 gb ddr5 6600 mhz:279
+kingston ddr5 fury beast 1x32gb 5200:134
+kingston ddr5 fury beast 1x16gb 4800:71
+kingston ddr5 fury beast 1x16gb 5600:74
+g.skill ripjaws f5-6000j3040g32gx2-rs5w geheugenmodule 64 gb 2 x 32 gb ddr5 6000 mhz:369
+crucial ddr5 1x16gb 4800:63
+kingston ddr5 fury beast rgb 2x16gb 4800:149
+corsair ddr5 vengeance 2x16gb 6200:195
+kingston ddr5 fury beast 1x16gb 6000:87
+kingston ddr5 fury beast 1x32gb 5600:144
+corsair ddr5 dominator platinum rgb 2x32gb 5600:409
+g.skill ddr5 trident z5 rgb 2x16gb 5600mhz cl36 black f5-5600j3636c16gx2-tz5rk:229
+team group delta rgb ddr5 geheugenmodule 32 gb 2 x 16 gb 6400 mhz ecc:239
+corsair ddr5 vengeance 2x32gb 5200 white:309
+g.skill trident z neo f5-6000j3636f16gx2-tz5nr geheugenmodule 32 gb:209
+g.skill trident z rgb f5-6600j3440g16gx2-tz5rs geheugenmodule 32 gb 2 x 16 gb ddr5 6600 mhz:279
+g.skill flare x (for amd) f5-5600j3036d16gx2-fx5 geheugenmodule 32 gb:189
+g.skill ddr5 trident z5 rgb 2x16gb 6400mhz cl32 silver f5-6400j3239g16gx2-tz5rs:249
+g.skill trident z neo f5-5600j2834f16gx2-tz5n geheugenmodule 32 gb:219
 corsair ddr5 dominator platinum rgb 2x32gb 5600 white:399
-corsair ddr5 vengeance rgb 2x32gb 5200:312
-g.skill ripjaws f5-6000j3040g32gx2-rs5w geheugenmodule 64 gb 2 x 32 gb ddr5 6000 mhz:409
-g.skill ddr5 trident z5 2x16gb 6400mhz cl32 silver f5-6400j3239g16gx2-tz5s:259
-kingston ddr5 fury beast 1x8gb 5600:47
-g.skill ripjaws f5-5200j2834f16gx2-rs5k geheugenmodule 32 gb 2 x 16 gb ddr5 5200 mhz:219
-g.skill ripjaws f5-5200j2834f16gx2-rs5w geheugenmodule 32 gb 2 x 16 gb ddr5 5200 mhz:229
-g.skill ripjaws f5-6000j3040g32gx2-rs5k geheugenmodule 64 gb 2 x 32 gb ddr5 6000 mhz:599
-kingston ddr5 fury beast rgb 1x32gb 5600:163
-kingston ddr5 fury beast rgb 1x16gb 5200:91
-kingston ddr5 fury beast 1x16gb 6000:92
-xpg lancer geheugenmodule 16 gb 1 x 16 gb ddr5 6000 mhz ecc:91
-xpg lancer geheugenmodule 32 gb 2 x 16 gb ddr5 6000 mhz ecc:163
-g.skill trident z f5-5600j3036d16gx2-tz5rs geheugenmodule 64 gb 2 x 32 gb ddr5 5600 mhz:409
-g.skill flare x (for amd) f5-5600j3636c16gx2-fx5 geheugenmodule 32 gb:179
+corsair ddr5 vengeance 2x16gb 7000:289
+corsair ddr5 dominator platinum rgb 2x32gb 6000:459
+kingston ddr5 fury renegade 1x16gb 6000:103
+corsair ddr5 vengeance 2x16gb 6400:239
 kingston ddr5 valueram 2x16gb 4800:134
-crucial ddr5 1x8gb 4800:47
-kingston ddr5 fury renegade rgb 1x16gb 6400:125
-g.skill trident z rgb f5-5600j2834f32gx2-tz5rs geheugenmodule 64 gb 2 x 32 gb ddr5:509
-g.skill ddr5 trident z5 2x16gb 6000mhz cl36 f5-6000j3636e16gx2-tz5k:249
-kingston ddr5 fury beast rgb 1x16gb 5600:90
-kingston ddr5 fury beast rgb 1x16gb 6000:106
-patriot memory viper venom pvvr532g600c36k geheugenmodule 32 gb 2 x 16 gb ddr5 6000 mhz ecc:229
-crucial ddr5 2x32gb 4800:319
-g.skill ddr5 trident z5 2x16gb 6000mhz cl40 black f5-6000j4040f16gx2-tz5k:249
-g.skill ripjaws s5 / f5-5600j3636d32gx2-rs5k geheugenmodule 64 gb 2 x 32 gb ddr5:369
-kingston ddr5 fury renegade 1x16gb 6400:109
-g.skill ripjaws s5 / f5-5600j3036d32gx2-rs5w geheugenmodule 64 gb 2 x 32 gb ddr5:409
-kingston ddr5 fury renegade rgb 2x16gb 6800:319
-kingston ddr5 fury beast 1x8gb 5200:48
-g.skill sk f5-5200j3636d32gx2-rs5k geheugenmodule 64 gb 2 x 32 gb ddr5:319
-xpg lancer rgb geheugenmodule 16 gb 1 x 16 gb ddr5 6000 mhz ecc:91
-netac shadow rgb geheugenmodule 32 gb 2 x 16 gb ddr5 4800 mhz:211
-patriot memory viper venom pvvr532g620c40k geheugenmodule 32 gb 2 x 16 gb ddr5 6200 mhz:309
-g.skill trident z neo f5-5600j3036d16gx2-tz5n geheugenmodule 32 gb:319
-kingston ddr5 fury beast rgb 1x32gb 4800:151
-kingston ddr5 fury beast rgb 2x32gb 4800:269
-g.skill ripjaws s5 / f5-5600j3036d16gx2-rs5k geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz:209
-g.skill trident z neo f5-5600j2834f16gx2-tz5nr geheugenmodule 32 gb:249
-patriot memory viper venom pvv516g520c36k geheugenmodule 16 gb 2 x 8 gb ddr5 5200 mhz ecc:95
+corsair ddr5 dominator platinum rgb 2x32gb 5200 white:379
+corsair ddr5 vengeance 2x16gb 5600 white:173
+corsair ddr5 vengeance rgb 4x16gb 5600:389
+crucial ddr5 2x8gb 4800:74
+corsair ddr5 dominator platinum rgb 2x32gb 5200:350
+g.skill ripjaws v f5-6000j3238f16gx2-rs5k geheugenmodule 32 gb 2 x 16 gb ddr5:199
+g.skill ddr5 trident z5 2x16gb 6000mhz cl40 silver f5-6000j4040f16gx2-tz5s:177
+kingston ddr5 fury beast 1x8gb 5600:43
+g.skill trident z rgb f5-5600j2834f32gx2-tz5rk geheugenmodule 64 gb 2 x 32 gb ddr5:539
+kingston ddr5 fury beast 1x32gb 4800:132
+g.skill trident z f5-6000j3040g32gx2-tz5k geheugenmodule 64 gb 2 x 32 gb ddr5 6000 mhz:429
+g.skill trident z neo f5-5600j2834f16gx2-tz5nr geheugenmodule 32 gb:239
+kingston ddr5 fury renegade rgb 1x16gb 6400:124
+corsair ddr5 dominator platinum rgb 2x16gb 5200 white:192
+g.skill ripjaws f5-5600j2834f16gx2-rs5w geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz:177
+g.skill trident z neo f5-6000j3636f16gx2-tz5n geheugenmodule 32 gb:192
+team group t-force delta rgb geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz:160
+lexar ares rgb geheugenmodule 16 gb 2 x 8 gb ddr4 4000 mhz:145
+g.skill ddr5 trident z5 2x16gb 6000mhz cl36 f5-6000j3636e16gx2-tz5k:178
 patriot memory ddr5 viper 4 1x8gb 4800mhz (psd58g480041):39
-g.skill ddr5 ripjaws s5 2x16gb 5200mhz cl36 black f5-5200j3636c16gx2-rs5k:191
+g.skill ripjaws s5 / f5-5600j3636d32gx2-rs5k geheugenmodule 64 gb 2 x 32 gb ddr5:349
+kingston ddr5 fury renegade 2x16gb 7200:329
+g.skill trident z rgb f5-5600j2834f32gx2-tz5rs geheugenmodule 64 gb 2 x 32 gb ddr5:379
+g.skill ripjaws f5-5600j2834f16gx2-rs5k geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz:177
+kingston ddr5 fury renegade rgb 2x16gb 6800:319
+patriot memory viper venom pvv516g560c40k geheugenmodule 16 gb 2 x 8 gb ddr5 5600 mhz ecc:96
+kingston ddr5 fury renegade 1x16gb 6400:109
+g.skill trident z f5-5600j3036d16gx2-tz5rs geheugenmodule 64 gb 2 x 32 gb ddr5 5600 mhz:439
+g.skill trident z f5-5600j3636d32gx2-tz5rk geheugenmodule 64 gb 2 x 32 gb ddr5:349
+kingston ddr5 fury beast rgb 1x32gb 5600:151
+g.skill sk f5-5200j3636d32gx2-rs5k geheugenmodule 64 gb 2 x 32 gb ddr5:359
+corsair ddr5 vengeance rgb 2x32gb 5200:312
+crucial ddr5 2x16gb 4800:135
+crucial ddr5 1x8gb 4800:38
+kingston ddr5 fury beast rgb 2x32gb 4800:269
+g.skill ripjaws f5-5200j2834f16gx2-rs5k geheugenmodule 32 gb 2 x 16 gb ddr5 5200 mhz:219
+kingston technology fury beast geheugenmodule 16 gb 2 x 8 gb ddr5 6000 mhz:107
+xpg lancer geheugenmodule 16 gb 1 x 16 gb ddr5 6000 mhz ecc:140
+crucial ddr5 1x32gb 4800:204
+kingston ddr5 fury beast 1x8gb 5200:48
+kingston ddr5 fury beast rgb 1x16gb 5600:89
+lexar ares rgb geheugenmodule 16 gb 2 x 8 gb ddr4 3866 mhz:97
 g.skill ddr5 trident z5 rgb 2x16gb 6000mhz cl40 silver f5-6000j4040f16gx2-tz5rs:279
-g.skill ripjaws s5 / f5-5600j3036d16gx2-rs5w geheugenmodule 32 gb 2 x 16 gb ddr5:194
-kingston ddr5 fury renegade rgb 1x16gb 6000:113
-crucial ddr5 2x16gb 4800:140
-kingston ddr5 fury beast 1x8gb 4800:48
-kingston ddr5 fury beast rgb 1x16gb 4800:90
+netac shadow rgb geheugenmodule 32 gb 2 x 16 gb ddr5 4800 mhz:239
+g.skill ripjaws f5-5200j2834f16gx2-rs5w geheugenmodule 32 gb 2 x 16 gb ddr5 5200 mhz:229
+g.skill ripjaws v f5-5600j2834f32gx2-rs5w geheugenmodule 64 gb 2 x 32 gb ddr5:349
+g.skill trident z neo f5-5600j3036d16gx2-tz5nr geheugenmodule 32 gb:239
+kingston technology fury beast geheugenmodule 64 gb 2 x 32 gb ddr5 6000 mhz:339
+crucial ddr5 2x32gb 4800:289
+patriot memory viper rgb pvvr532g560c36k geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz ecc:154
+g.skill ripjaws v f5-5600j2834f32gx2-rs5k geheugenmodule 64 gb 2 x 32 gb ddr5:349
+team group t-force vulcan geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz:171
+g.skill ddr5 trident z5 rgb 2x16gb 5600mhz cl36 black f5-5600u3636c16gx2-tz5rk:599
+g.skill ddr5 trident z5 2x16gb 6400mhz cl32 silver f5-6400j3239g16gx2-tz5s:259
+kingston ddr5 fury beast 1x8gb 6000:54
+kingston ddr5 fury beast rgb 1x16gb 6000:103
+kingston ddr5 fury beast rgb 1x32gb 4800:150
+g.skill ripjaws f5-5200s3838a16gx2-rs geheugenmodule 32 gb 2 x 16 gb ddr5 5200 mhz:174
 transcend jetram jm4800alg-8g geheugenmodule 8 gb 1 x 8 gb ddr5 4800 mhz ecc:50
-g.skill ddr5 ripjaws s5 2x16gb 5200mhz cl36 wit f5-5200j3636c16gx2-rs5w:190
-g.skill ddr5 ripjaws s5 2x16gb 5600mhz cl40 wit f5-5600j4040c16gx2-rs5w:177
-kingston ddr5 fury beast rgb 1x32gb 5200:154
-g.skill ripjaws s5 / f5-5600j3636d32gx2-rs5w geheugenmodule 64 gb 2 x 32 gb ddr5:379
-g.skill trident z rgb f5-6000j3040f16gx2-tz5rs geheugenmodule 32 gb 2 x 16 gb ddr5:249
-g.skill trident z rgb f5-6000j3238f16gx2-tz5rs geheugenmodule 32 gb 2 x 16 gb ddr5:249
-patriot memory viper rgb pvvr532g560c36k geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz ecc:199
-g.skill ddr5 ripjaws s5 2x16gb 5600mhz cl36 black f5-5600u3636c16gx2-rs5k:479
-crucial ddr5 1x32gb 4800:222
-g.skill ddr5 trident z5 rgb 2x16gb 5600mhz cl36 silver f5-5600j3636c16gx2-tz5rs:219
-g.skill trident z rgb f5-6000j3040f16gx2-tz5rk geheugenmodule 32 gb 2 x 16 gb ddr5:239
-g.skill ripjaws v f5-5600j2834f32gx2-rs5w geheugenmodule 64 gb 2 x 32 gb ddr5:389
-g.skill trident z f5-5600j3636d32gx2-tz5rk geheugenmodule 64 gb 2 x 32 gb ddr5:359
-g.skill trident z rgb f5-6000j3238f16gx2-tz5rk geheugenmodule 32 gb 2 x 16 gb ddr5:299
-lexar ares rgb geheugenmodule 16 gb 2 x 8 gb ddr4 3866 mhz:112
-adata ddr5 xpg lancer rgb 1x16gb 5200:109
-g.skill ddr5 ripjaws s5 2x16gb 5200mhz cl40 wit f5-5200j4040a16gx2-rs5w:168
-kingston ddr5 fury beast rgb 1x8gb 5600:60
+g.skill trident z neo f5-5600j3036d16gx2-tz5n geheugenmodule 32 gb:329
+kingston technology fury renegade geheugenmodule 16 gb 1 x 16 gb ddr5 7200 mhz:175
+g.skill trident z rgb f5-6000j3040f16gx2-tz5rk geheugenmodule 32 gb 2 x 16 gb ddr5:219
+patriot memory viper venom pvv516g520c36k geheugenmodule 16 gb 2 x 8 gb ddr5 5200 mhz ecc:93
+kingston technology fury renegade rgb geheugenmodule 16 gb 1 x 16 gb ddr5 7200 mhz:183
+g.skill ddr5 ripjaws s5 2x16gb 5200mhz cl40 wit f5-5200j4040a16gx2-rs5w:163
+kingston ddr5 fury renegade 2x16gb 6800:299
+patriot memory viper venom geheugenmodule 32 gb 2 x 16 gb ddr5 6000 mhz ecc:168
 kingston ddr5 valueram 1x16gb 4800:74
-adata ad5u480016g-s geheugenmodule 16 gb 1 x 16 gb ddr5 4800 mhz ecc:85
+g.skill ddr5 ripjaws s5 2x16gb 5600mhz cl40 black f5-5600j4040c16gx2-rs5k:175
+g.skill ddr5 trident z5 2x16gb 6000mhz cl40 black f5-6000j4040f16gx2-tz5k:191
+kingston ddr5 fury renegade rgb 1x16gb 6000:112
+g.skill ddr5 trident z5 rgb 2x16gb 5200mhz cl36 black f5-5200j3636c16gx2-tz5rk:209
+g.skill ddr5 trident z5 rgb 2x16gb 5600mhz cl36 silver f5-5600j3636c16gx2-tz5rs:209
+g.skill trident z rgb f5-6000j3040f16gx2-tz5rs geheugenmodule 32 gb 2 x 16 gb ddr5:249
+kingston technology fury beast geheugenmodule 64 gb 2 x 32 gb ddr5 5200 mhz:289
+kingston technology fury beast rgb geheugenmodule 64 gb 2 x 32 gb ddr5 6000 mhz:359
+g.skill ddr5 ripjaws s5 2x16gb 5600mhz cl36 black f5-5600j3636c16gx2-rs5k:164
+g.skill ripjaws s5 / f5-5600j3036d16gx2-rs5w geheugenmodule 32 gb 2 x 16 gb ddr5:177
+adata ddr5 xpg lancer rgb 1x16gb 5200:109
+g.skill ddr5 trident z5 2x16gb 6000mhz cl36 silver f5-6000j3636f16gx2-tz5s:193
+kingston ddr5 fury beast rgb 1x32gb 5200:154
+kingston ddr5 fury beast rgb 1x8gb 4800:56
+kingston ddr5 fury beast rgb 1x8gb 5600:59
+g.skill ripjaws s5 / f5-5600j3036d16gx2-rs5k geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz:209
+g.skill ripjaws f5-6400j3239g16gx2-rs5k geheugenmodule 32 gb 2 x 16 gb ddr5 6400 mhz:250
+team group delta ff3d532g6400hc40bdc01 geheugenmodule 32 gb 2 x 16 gb ddr5 6400 mhz ecc:249
+g.skill ddr5 ripjaws s5 2x16gb 5600mhz cl40 wit f5-5600j4040c16gx2-rs5w:178
 g.skill ddr5 trident z5 2x16gb 5600mhz cl40 black f5-5600j4040c16gx2-tz5k:194
+lexar ares geheugenmodule 16 gb 1 x 16 gb ddr5 4800 mhz ecc:84
+kingston ddr5 fury beast rgb 1x16gb 4800:88
+kingston ddr5 fury beast rgb 1x16gb 5200:90
 kingston ddr5 fury beast rgb 1x8gb 5200:57
-adata ddr5 xpg lancer 1x16gb 5200:105
-kingston ddr5 fury beast 1x8gb 6000:59
 transcend jetram jm4800ale-16g geheugenmodule 16 gb 1 x 16 gb ddr5 4800 mhz ecc:81
-g.skill ddr5 ripjaws s5 2x16gb 5600mhz cl40 black f5-5600j4040c16gx2-rs5k:168
+g.skill ripjaws s5 / f5-6000j3040f16gx2-rs5w geheugenmodule 32 gb 2 x 16 gb ddr5:188
+g.skill flare x (for amd) f5-5600j3636c16gx2-fx5 geheugenmodule 32 gb:179
+g.skill ripjaws s5 / f5-5600j3636d32gx2-rs5w geheugenmodule 64 gb 2 x 32 gb ddr5:319
+patriot memory viper venom pvvr532g600c36k geheugenmodule 32 gb 2 x 16 gb ddr5 6000 mhz ecc:229
+kingston technology fury beast rgb geheugenmodule 16 gb 2 x 8 gb ddr5 5200 mhz:103
+g.skill ddr5 ripjaws s5 2x16gb 5200mhz cl36 black f5-5200j3636c16gx2-rs5k:163
+kingston ddr5 fury beast rgb 1x8gb 6000:61
+crucial ct16g52c42s5 geheugenmodule 16 gb 1 x 16 gb ddr5 5200 mhz:90
+adata ad5u480016g-s geheugenmodule 16 gb 1 x 16 gb ddr5 4800 mhz ecc:75
+adata ddr5 xpg lancer 1x16gb 5200:105
+kingston ddr5 fury beast 1x8gb 4800:48
+kingston technology valueram kvr48u40bs6-8 geheugenmodule 8 gb 1 x 8 gb ddr5 4800 mhz:46
+g.skill trident z rgb f5-6000j3238f16gx2-tz5rs geheugenmodule 32 gb 2 x 16 gb ddr5:239
+g.skill ripjaws s5 / f5-5600j3036d32gx2-rs5w geheugenmodule 64 gb 2 x 32 gb ddr5:349
+team group elite ted58g4800c40016 geheugenmodule 8 gb 1 x 8 gb ddr5 4800 mhz:41
+kingston technology fury renegade rgb geheugenmodule 16 gb 1 x 16 gb ddr5 6800 mhz:159
+g.skill ddr5 trident z5 rgb 2x16gb 5600mhz cl40 black f5-5600j4040c16gx2-tz5rk:259
+g.skill ripjaws f5-6000j3238f16gx2-rs5w geheugenmodule 32 gb 2 x 16 gb ddr5:177
+g.skill trident z f5-6000j3040f16gx2-tz5s geheugenmodule 32 gb 2 x 16 gb ddr5:229
+g.skill trident z rgb f5-6000j3238f16gx2-tz5rk geheugenmodule 32 gb 2 x 16 gb ddr5:289
+g.skill ddr5 ripjaws s5 2x16gb 5600mhz cl36 black f5-5600u3636c16gx2-rs5k:479
+g.skill ddr5 trident z5 rgb 2x16gb 5200mhz cl36 silver f5-5200j3636c16gx2-tz5rs:194
+g.skill ddr5 trident z5 rgb 2x16gb 5600mhz cl40 silver f5-5600j4040c16gx2-tz5rs:259
+g.skill ddr5 ripjaws s5 2x16gb 5200mhz cl36 wit f5-5200j3636c16gx2-rs5w:163
+g.skill ripjaws f5-4800s4039a32gx1-rs geheugenmodule 32 gb 1 x 32 gb ddr5 4800 mhz:156
+corsair ddr5 vengeance 2x32gb 4800:359
+patriot memory viper venom pvvr532g620c40k geheugenmodule 32 gb 2 x 16 gb ddr5 6200 mhz:279
+kingston technology fury beast rgb geheugenmodule 8 gb 1 x 8 gb ddr5 6000 mhz:63
+adata lancer geheugenmodule 16 gb 1 x 16 gb ddr5 5200 mhz ecc:299
 g.skill ddr5 ripjaws s5 2x16gb 5600mhz cl36 wit f5-5600j3636c16gx2-rs5w:189
 pny md16gsd54800-tb geheugenmodule 16 gb 1 x 16 gb ddr5 4800 mhz ecc:103
-g.skill ripjaws f5-5200s3838a16gx2-rs geheugenmodule 32 gb 2 x 16 gb ddr5 5200 mhz:174
-g.skill ripjaws s5 / f5-6000j3040f16gx2-rs5w geheugenmodule 32 gb 2 x 16 gb ddr5:209
-g.skill ripjaws s5 / f5-5600j3036d32gx2-rs5k geheugenmodule 64 gb 2 x 32 gb ddr5:379
-lexar ares geheugenmodule 16 gb 1 x 16 gb ddr5 4800 mhz ecc:84
-kingston ddr5 fury renegade 2x16gb 6800:309
-kingston technology fury renegade geheugenmodule 16 gb 1 x 16 gb ddr5 7200 mhz:176
-g.skill ddr5 ripjaws s5 2x16gb 5600mhz cl36 black f5-5600j3636c16gx2-rs5k:170
-kingston ddr5 fury beast rgb 1x8gb 4800:56
-crucial ct16g52c42s5 geheugenmodule 16 gb 1 x 16 gb ddr5 5200 mhz:101
-crucial ddr5 2x16gb 5600:164
-patriot memory viper venom geheugenmodule 32 gb 2 x 16 gb ddr5 6000 mhz ecc:180
-kingston technology valueram kvr48u40bs6-8 geheugenmodule 8 gb 1 x 8 gb ddr5 4800 mhz:48
-kingston ddr5 fury beast rgb 1x8gb 6000:62
-g.skill ddr5 trident z5 rgb 2x16gb 5600mhz cl40 silver f5-5600j4040c16gx2-tz5rs:259
-g.skill ddr5 trident z5 rgb 2x16gb 5600mhz cl40 black f5-5600j4040c16gx2-tz5rk:259
-g.skill ddr5 trident z5 2x16gb 6000mhz cl36 silver f5-6000j3636f16gx2-tz5s:192
-g.skill trident z f5-6000j3040f16gx2-tz5s geheugenmodule 32 gb 2 x 16 gb ddr5:229
-kingston technology fury renegade rgb geheugenmodule 16 gb 1 x 16 gb ddr5 6800 mhz:162
-kingston technology fury renegade rgb geheugenmodule 16 gb 1 x 16 gb ddr5 7200 mhz:185
-gigabyte ars32g60d5r geheugenmodule 32 gb 2 x 16 gb ddr5 6000 mhz:9999
-g.skill ddr5 trident z5 rgb 2x16gb 5200mhz cl36 black f5-5200j3636c16gx2-tz5rk:209
-g.skill ripjaws f5-5200j3636d32gx2-rs5w geheugenmodule 64 gb 2 x 32 gb ddr5:319
-g.skill ripjaws f5-6000j3238f16gx2-rs5w geheugenmodule 32 gb 2 x 16 gb ddr5:194
-g.skill trident z f5-6000j3040f16gx2-tz5k geheugenmodule 32 gb 2 x 16 gb ddr5:229
-team group elite ted58g4800c40016 geheugenmodule 8 gb 1 x 8 gb ddr5 4800 mhz:46
-adata ad5u48008g-s geheugenmodule 8 gb 1 x 8 gb ddr5 4800 mhz ecc:100
+g.skill ripjaws f5-5200j3636d32gx2-rs5w geheugenmodule 64 gb 2 x 32 gb ddr5:309
+kingston technology fury beast geheugenmodule 32 gb 1 x 32 gb ddr5 6000 mhz:172
+kingston technology fury beast rgb geheugenmodule 32 gb 1 x 32 gb ddr5 5200 mhz:145
+kingston technology fury beast rgb geheugenmodule 8 gb 1 x 8 gb ddr5 5600 mhz:57
 g.skill ddr5 trident z5 2x16gb 5600mhz cl40 silver f5-5600j4040c16gx2-tz5s:188
-g.skill ripjaws f5-4800s3434a16gx1-rs geheugenmodule 16 gb 1 x 16 gb ddr5 4800 mhz:91
-corsair ddr5 vengeance 2x32gb 4800:359
-corsair ddr5 vengeance 2x16gb 6400:229
-corsair ddr5 dominator platinum rgb 2x32gb 6000:469
-patriot memory psd58g560c4041x geheugenmodule 8 gb 1 x 8 gb ddr5 5600 mhz:48
-g.skill ddr5 trident z5 rgb 2x16gb 5200mhz cl36 silver f5-5200j3636c16gx2-tz5rs:197
-patriot memory ddr5 viper 4 1x16gb 4800mhz (psd516g480081 ):93
-adata lancer geheugenmodule 16 gb 1 x 16 gb ddr5 5200 mhz ecc:146
+g.skill trident z f5-6000j3040f16gx2-tz5k geheugenmodule 32 gb 2 x 16 gb ddr5:199
+transcend jetram jm4800ale-32g geheugenmodule 32 gb 1 x 32 gb ddr5 4800 mhz ecc:144
+g.skill ripjaws s5 / f5-5600j3036d32gx2-rs5k geheugenmodule 64 gb 2 x 32 gb ddr5:339
+lexar ddr5 ares 2x16gb 5200mhz:224
+kingston technology fury beast rgb geheugenmodule 32 gb 1 x 32 gb ddr5 6000 mhz:178
+adata ad5u48008g-s geheugenmodule 8 gb 1 x 8 gb ddr5 4800 mhz ecc:100
+crucial ddr5 2x16gb 5200:169
+kingston technology fury beast rgb geheugenmodule 32 gb 1 x 32 gb ddr5 5600 mhz:154
+kingston technology ksm48e40bs8km-16hm geheugenmodule 16 gb 1 x 16 gb ddr5 4800 mhz:132
 transcend ts2gla64v8e geheugenmodule 16 gb 1 x 16 gb ddr5 4800 mhz:108
 g.skill ripjaws f5-4800s3838a16gx1-rs geheugenmodule 16 gb 1 x 16 gb ddr5 4800 mhz:88
-g.skill ripjaws f5-4800s3838a32gx2-rs geheugenmodule 64 gb 2 x 32 gb ddr5 4800 mhz:699
-crucial ct2k16g56c46s5 geheugenmodule 32 gb 2 x 16 gb ddr5 5600 mhz ecc:181
+g.skill ripjaws f5-4800s3838a32gx1-rs geheugenmodule 32 gb 1 x 32 gb ddr5 4800 mhz:157
+crucial ct16g56c46s5 geheugenmodule 16 gb 1 x 16 gb ddr5 5600 mhz ecc:92
+kingston technology fury beast geheugenmodule 8 gb 1 x 8 gb ddr5 5600 mhz:50
+kingston technology ksm48e40bd8km-32hm geheugenmodule 32 gb 1 x 32 gb ddr5 4800 mhz:249
+patriot memory ddr5 viper 4 1x16gb 4800mhz (psd516g480081 ):85
