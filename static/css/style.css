@@ -1,0 +1,76 @@
+.centered{
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form_padding{
+  padding-top: 200px;
+  padding-bottom:10%;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  float:left;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  margin: 0 1.5%;
+  width: 63%;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding: 0;
+  margin: 0 1.5%;
+  
+  margin-top: 20%;
+  
+}
+
+
+.dropdown-content a {
+  float:left;
+  position: relative;
+  
+  color: black;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.submit_button{
+  float:right;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 16px;
+  margin: 0 4%;
+  position:absolute;
+  background-color: #4CAF50;
+
+  width: 30%;
+  border: none;
+  cursor: pointer;
+  color: white;
+}

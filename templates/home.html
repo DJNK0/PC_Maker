@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{name}}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<div class="centered">
+    <form class="form_padding" method="POST">
+        Budget: <input type="number" name="budget" value={{budget}} min="400">
+    </form>
+
+    <div class="dropdown">
+        <p class="dropbtn"> Gebruik: {{name}} </p>
+        <form class="dropdown-content" method="POST">
+            <button type="submit" name="gaming_btn" value="0">Gaming</button>
+            <button type="submit" name="productiviteit_btn" value="0">Productiviteit</button>
+        </form>
+    
+    
+    </div> 
+    <form method="POST">
+        <button class="submit_button">submit</button>
+    </form>
+     
+</div>
+
+</html>
+<!--<button class="submit_button centered">submit</button>-->
