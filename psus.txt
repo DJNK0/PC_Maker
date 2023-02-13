@@ -16,6 +16,7 @@
 800|gold
 850|gold
 900|gold
+1000|gold
 500|platinum
 550|platinum
 600|platinum

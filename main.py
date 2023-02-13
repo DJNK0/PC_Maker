@@ -278,4 +278,3 @@ time.sleep(1)
 hoeveelheid = bereken_hoeveelheid()
 scrape_pagina('//*[@id="navigation_products"]/div[5]/div[3]')
 verwerk_resultaten("scraped_ram_ddr5.txt", producten, prijzen)
-

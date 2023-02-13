@@ -45,6 +45,9 @@ def check_of_in_woord(l, str_vergelijk):
             return False
     return True
 
+def get_psu_voeding_type():
+    pass
+
 
 # Lijst om resultaten te bewaren
 def filter(gewenste_file, gescrapede_file, results_file):
@@ -93,17 +96,25 @@ def filter(gewenste_file, gescrapede_file, results_file):
                         if socket != "":
                             naam_oud += f";{socket}"
                         naam_oud = "".join(line.strip() for line in naam_oud.splitlines()) + "\n"
-
+                    else:
+                        if gewenste_file == "psus.txt":
+                            naam_oud += "\n"
+                    if gewenste_file == "opslag.txt":
+                        opslag_type = row[0].replace("|", " ")
+                        naam_oud += f";{opslag_type}\n"
 
                     # Scheid de naam en prijs
                     naam = scheid_str(line, ":")[1].lower()
 
                     if "|" in row[0]:
-
                         gesplit = row[0].split("|")
+
                         if check_of_in_woord(gesplit, naam):
                             # Voeg hem toe samen met prijs en index aan de lijst met matches
                             prijs = int(scheid_str(line, ":")[0].strip("\n"))
+                            if gewenste_file == "psus.txt":
+                                naam_oud = naam_oud.strip("\n")
+                                naam_oud += f";{gesplit[0]}\n"
                             matches.append((prijs,naam_oud, i))
 
                     check = check_specifiek(row, naam)

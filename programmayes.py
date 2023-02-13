@@ -27,8 +27,6 @@ def doeleind():
     if doel == "professioneel":
         return doel, {"min_budget_gpu":23, "max_budget_gpu":33, "min_budget_platform":40, "max_budget_platform":55}
 
-doel, doeleind_data = doeleind()
-
 def closest(list, Number):
     aux = []
     for valor in list:
@@ -36,62 +34,55 @@ def closest(list, Number):
 
     return aux.index(min(aux))
 
-def kies_gpu():
-    budget = int(input("wat is het budget"))
+def kies_gpu(doel, doeleind_data):
+    budget = int(input("kies een budget"))
     videokaarten = []
-    with open("results_gpus.txt", "r") as videokaarten_f:
-        videokaarten_content = videokaarten_f.readlines()
-        for lijn in videokaarten_content:
-            videokaart_met_prijs, data = verwijder_haakjes(lijn)
-            videokaart, prijs = scheid_str(videokaart_met_prijs, ":")
-            prijs = int(prijs.strip("\n"))
+    gpu_opties = []
+    videokaarten_f = open("results_gpus.txt", "r")
+    videokaarten_content = videokaarten_f.readlines()
+    for lijn in videokaarten_content:
+        videokaart_met_prijs, data = verwijder_haakjes(lijn)
+        videokaart, prijs = scheid_str(videokaart_met_prijs, ":")
+        prijs = int(prijs.strip("\n"))
 
-            if doel == "gaming":
-                data = [int(data[0]), (int(data[2]))]
-                videokaarten.append((videokaart, prijs, data))
-            else:
-                data = [int(data[1]), (int(data[2]))]
-                videokaarten.append((videokaart, prijs, data))
+        if doel == "gaming":
+            data = [int(data[0]), (int(data[2]))]
+            videokaarten.append((videokaart, prijs, data))
+        else:
+            data = [int(data[1]), (int(data[2]))]
+            videokaarten.append((videokaart, prijs, data))
 
     min_budget_gpu = budget * doeleind_data["min_budget_gpu"] / 100
     max_budget_gpu = budget * doeleind_data["max_budget_gpu"] / 100
     videokaarten.sort(key=lambda x: x[1])
 
-    print(min_budget_gpu, videokaarten[-1][1])
-    print(max_budget_gpu, videokaarten[0][1])
-
-    gpu_opties = []
-    if min_budget_gpu <= videokaarten[-1][1] and max_budget_gpu <= videokaarten[0][1]:
-        videokaart_prijzen = []
-        for videokaart in videokaarten:
-            print(videokaart)
-            videokaart_prijzen.append(videokaart[1])
-
-        dichtsbijzijnde = (closest(videokaart_prijzen, min_budget_gpu))
-        print(videokaarten[dichtsbijzijnde])
-    if min_budget_gpu >= videokaarten[-1][1]:
-        videokaarten.sort(key=lambda x: x[2])
-        beste_videokaart = videokaarten[-1]
-
-        beste_videokaart_ratio = beste_videokaart[2][0] / beste_videokaart[1]
-        gpu_opties.append((beste_videokaart[0], beste_videokaart[1], beste_videokaart_ratio))
-
-    if max_budget_gpu <= videokaarten[0][1]:
-        kies_gpu()
-
 
     for videokaart in videokaarten:
         if min_budget_gpu <= videokaart[1] <= max_budget_gpu:
             ratio = videokaart[2][0] / videokaart[1]
-            gpu_opties.append((videokaart[0],videokaart[1], ratio))
-    print(gpu_opties)
-    gpu_opties.sort(key=lambda x: x[2])
-    return budget, gpu_opties[0][0], gpu_opties[0][1]
-gpu = kies_gpu()
-print(gpu)
-budget = gpu[0]
-def bereken_ram_ddr4(lijn, socket, gewenste_grootte, data):
+            gpu_opties.append((videokaart[0],videokaart[1], ratio, videokaart[2][1]))
 
+    if len(gpu_opties) == 0:
+        if max_budget_gpu < videokaarten[0][1]:
+            videokaarten_f.close()
+            kies_gpu()
+
+        else:
+            videokaarten.sort(key=lambda x: x[2])
+            beste_videokaart = videokaarten[-1]
+            beste_videokaart_ratio = beste_videokaart[2][0] / beste_videokaart[1]
+
+
+            gpu_opties.append((beste_videokaart[0], beste_videokaart[1], beste_videokaart_ratio, beste_videokaart[2][1]))
+
+            for videokaart in videokaarten:
+                if min_budget_gpu < videokaart[1] <= max_budget_gpu:
+                    ratio = videokaart[2][0] / videokaart[1]
+                    gpu_opties.append((videokaart[0],videokaart[1], ratio, videokaart[2][1]))
+    gpu_opties.sort(key=lambda x: x[2], reverse=True)
+    return budget, gpu_opties[0][0], gpu_opties[0][1], gpu_opties[0][2], gpu_opties[0][3]
+
+def bereken_ram_ddr4(lijn, socket, gewenste_grootte, data):
     grootte = re.search("~(.*)~", lijn).group(1)
     if grootte == gewenste_grootte:
         ram, snelheid = scheid_str(lijn, ";")
@@ -145,9 +136,7 @@ def kies_moederbord(cpu, socket, prijs):
                 return zoek_moederbord("b550m aorus elite")
         else:
             return zoek_moederbord("b450")
-
     if socket == "am5":
-
         if prijs > 300:
             if prijs > 450:
                 return zoek_moederbord("asus tuf gaming x670e-plus")
@@ -187,7 +176,7 @@ def kies_koeler(data):
         else:
             return zoek_koeler("cooler master hyper")
 
-def kies_platform():
+def kies_platform(doel, doeleind_data, budget):
     platformen = []
     min_budget_platform = budget * doeleind_data["min_budget_platform"] / 100
     max_budget_platform = budget * doeleind_data["max_budget_platform"] / 100
@@ -215,8 +204,6 @@ def kies_platform():
             ddr4_content = ddr4_f.readlines()
 
             snelheden = []
-
-
             if doel == "gaming":
                 if cpu_prijs > 450:
                     gewenste_grootte = "2x16"
@@ -237,13 +224,11 @@ def kies_platform():
                         ram_schoon, snelheid = bereken_ram_ddr4(product,socket, gewenste_grootte, data)
                         if snelheid != None:
                             snelheden.append((ram_schoon, snelheid))
-
                 if ram == "ddr5":
                     for product in ddr5_content:
                         ram_schoon, snelheid = bereken_ram_ddr5(product, gewenste_grootte, data)
                         if snelheid != None:
                             snelheden.append((ram_schoon, snelheid))
-
                 else:
                     ram_schoon, snelheid = bereken_ram_ddr4(product, socket, gewenste_grootte, data)
                     if snelheid != None:
@@ -258,9 +243,171 @@ def kies_platform():
                 platform_prijs = int(ram_prijs) + int(cpu_prijs) + int(koeler_prijs) + int(moederbord_prijs)
                 ratio = snelheid[1] / platform_prijs
 
-                if min_budget_platform <= platform_prijs <= max_budget_platform:
-                    platformen.append((ratio, platform_prijs, cpu, moederbord, ram, koeler))
-        platformen.sort()
-        print(platformen[0])
+                platformen.append((ratio, platform_prijs, cpu, data[2], moederbord, ram, koeler, snelheid[1]))
+        mogelijke_platformen = []
+        for platform in platformen:
+            if min_budget_platform <= platform[1] <= max_budget_platform:
+                mogelijke_platformen.append(platform)
 
-kies_platform()
+        if len(mogelijke_platformen) == 0:
+            platformen.sort(key=lambda x: x[1])
+            if max_budget_platform <= platformen[0][1]:
+                gpu = kies_gpu(doel, doeleind_data)
+
+            else:
+                platformen.sort(key=lambda x:x[-1], reverse=True)
+                return (platformen[0][1], platformen[0][2], platformen[0][3], platformen[0][4],
+                        platformen[0][5], platformen[0][6])
+
+    mogelijke_platformen.sort(reverse=True)
+    return (mogelijke_platformen[0][1], mogelijke_platformen[0][2], mogelijke_platformen[0][3], mogelijke_platformen[0][4],
+            mogelijke_platformen[0][5], mogelijke_platformen[0][6])
+
+def kies_psu(budget, tdp_cpu, tdp_gpu):
+    totaal_tdp = tdp_gpu + tdp_cpu
+    min_watt = totaal_tdp * 1.8
+    psu_f = open("results_psus.txt", "r")
+    psu_content = psu_f.readlines()
+
+    if budget > 700:
+        if budget > 2500:
+            if budget > 3500:
+                gewenste_eff = "titanium"
+            else:
+                gewenste_eff = "platinum"
+        else:
+            gewenste_eff = "gold"
+    else:
+        gewenste_eff = "bronze"
+
+    for line in psu_content:
+        psu, wattage = scheid_str(line, ";")
+
+        if int(wattage) < min_watt:
+            continue
+
+        if "bronze" in psu:
+            efficientie = "bronze"
+        elif "gold" in psu:
+            efficientie = "gold"
+        elif "platinum" in psu:
+            efficientie = "platinum"
+        else:
+            efficientie = "titanium"
+        if gewenste_eff == efficientie:
+            return scheid_str(psu, ":")
+
+def kies_behuizing(budget):
+    behuizing_f = open("behuizing_results.txt", "r")
+    behuizing_content = behuizing_f.readlines()
+
+    if budget > 700:
+        if budget > 1000:
+            if budget > 2500:
+                gewenste_behuizing = "fractal design"
+            else:
+                gewenste_behuizing = "corsair 4000d"
+        else:
+            gewenste_behuizing = "aerocool hexform"
+    else:
+
+        return behuizing_content[0]
+
+    for line in behuizing_content:
+
+        if gewenste_behuizing in line.lower():
+            return scheid_str(line, ":")
+
+def kies_opslag(budget):
+    opslag_f = open("results_opslag.txt", "r")
+    opslag_content = opslag_f.readlines()
+
+    opslagen = {}
+    for line in opslag_content:
+
+        opslag, opslag_type = scheid_str(line, ";")
+        opslag, opslag_prijs = scheid_str(opslag, ":")
+
+        opslag_type = opslag_type.strip("\n")
+        opslagen[opslag_type] = (opslag, int(opslag_prijs))
+
+    if budget > opslagen["ssd 480gb"][1]:
+        if budget > opslagen["ssd 960gb"][1]:
+            if budget > opslagen["ssd 240gb"][1] + opslagen["hdd 2tb"][1]:
+                if budget > opslagen["m.2 1tb"][1]:
+                    if budget > opslagen["ssd 480gb"][1] + opslagen["hdd 2tb"][1]:
+                        if budget > opslagen["m.2 1tb"][1] + opslagen["hdd 2tb"][1]:
+                            if budget > opslagen["m.2 2tb"][1]:
+                                if budget > opslagen["m.2 1tb"][1] + opslagen["hdd 4tb"][1]:
+                                    if budget > opslagen["m.2 2tb"][1] + opslagen["hdd 4tb"][1]:
+                                        if budget > opslagen["m.2 1tb"][1] + opslagen["ssd 4tb"][1]:
+                                            if budget > opslagen["m.2 2tb"][1] + opslagen["ssd 4tb"][1]:
+                                                if budget > opslagen["m.2 2tb"][1]  + opslagen["ssd 8tb"][1]:
+                                                    if budget > opslagen["m.2 4tb"][1] + opslagen["ssd 8tb"][1]:
+                                                        return opslagen["m.2 4tb"] + opslagen["ssd 8tb"]
+                                                    else:
+                                                        return opslagen["m.2 2tb"] + opslagen["ssd 8tb"]
+                                                else:
+                                                    return opslagen["m.2 2tb"] + opslagen["ssd 4tb"]
+                                            else:
+                                                return opslagen["m.2 1tb"] + opslagen["ssd 4tb"]
+                                        else:
+                                            return opslagen["m.2 2tb"] + opslagen["hdd 4tb"]
+                                    else:
+                                        return opslagen["m.2 1tb"] + opslagen["hdd 4tb"]
+                                else:
+                                    return opslagen["m.2 2tb"]
+                            else:
+                                return opslagen["m.2 1tb"] + opslagen["hdd 2tb"]
+                        else:
+                            return opslagen["ssd 480gb"] + opslagen["hdd 2tb"]
+                    else:
+                        return opslagen["m.2 1tb"]
+                else:
+                    return opslagen["ssd 240gb"] + opslagen["hdd 2tb"]
+            else:
+                return opslagen["ssd 960gb"]
+        else:
+            return opslagen["ssd 480gb"]
+    else:
+        return opslagen["ssd 240gb"]
+
+def main():
+    doel, doeleind_data = doeleind()
+
+    gpu = kies_gpu(doel, doeleind_data)
+    gpu_prijs = int(gpu[2])
+    budget = gpu[0]
+
+    platform = kies_platform(doel, doeleind_data, budget)
+    platform_prijs = int(platform[0])
+    tdp_cpu = int(platform[2])
+
+    tdp_gpu = gpu[4]
+    psu, psu_prijs = kies_psu(budget, tdp_cpu, tdp_gpu)
+    psu_prijs = int(psu_prijs)
+    behuizing, behuizing_prijs = kies_behuizing(budget)
+    behuizing_prijs = int(behuizing_prijs)
+
+    budget_over = budget - gpu_prijs - platform_prijs - psu_prijs - behuizing_prijs
+    opslag = kies_opslag(budget_over)
+
+    gpu = gpu[1]
+    cpu = platform[1]
+    moederbord = platform[3]
+    ram = platform[4]
+    cooler = 'Geen cooler nodig, hij is bijgeleverd'
+    if platform[4] != None:
+        cooler = platform[5]
+
+    opslag_final = ""
+    if isinstance(opslag, str) == False:
+        for item in opslag:
+            if isinstance(item, int) == False:
+                opslag_final += item + ", "
+    opslag_final = opslag_final[:-2]
+
+    return gpu, cpu, moederbord, ram, cooler, behuizing, opslag_final
+if __name__ == "__main__":
+    computer = main()
+    print(computer)
