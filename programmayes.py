@@ -19,13 +19,12 @@ def verwijder_haakjes(str):
     str = re.sub('<.*?>', '', str)
     return(str, data)
 
-def doeleind():
-    doel = input("Wat is het doel?")
+def doeleind(doel):
     if doel == "gaming":
-        return doel, {"min_budget_gpu":35, "max_budget_gpu":45, "min_budget_platform":33, "max_budget_platform":42}
+        return {"min_budget_gpu":35, "max_budget_gpu":45, "min_budget_platform":33, "max_budget_platform":42}
 
     if doel == "professioneel":
-        return doel, {"min_budget_gpu":23, "max_budget_gpu":33, "min_budget_platform":40, "max_budget_platform":55}
+        return {"min_budget_gpu":23, "max_budget_gpu":33, "min_budget_platform":40, "max_budget_platform":55}
 
 def closest(list, Number):
     aux = []
@@ -34,8 +33,7 @@ def closest(list, Number):
 
     return aux.index(min(aux))
 
-def kies_gpu(doel, doeleind_data):
-    budget = int(input("kies een budget"))
+def kies_gpu(budget, doel, doeleind_data):
     videokaarten = []
     gpu_opties = []
     videokaarten_f = open("results_gpus.txt", "r")
@@ -65,10 +63,12 @@ def kies_gpu(doel, doeleind_data):
     if len(gpu_opties) == 0:
         if max_budget_gpu < videokaarten[0][1]:
             videokaarten_f.close()
-            kies_gpu()
 
         else:
+            if budget < 1000:
+                return "error","error","error","error","error"
             videokaarten.sort(key=lambda x: x[2])
+
             beste_videokaart = videokaarten[-1]
             beste_videokaart_ratio = beste_videokaart[2][0] / beste_videokaart[1]
 
@@ -82,24 +82,36 @@ def kies_gpu(doel, doeleind_data):
     gpu_opties.sort(key=lambda x: x[2], reverse=True)
     return budget, gpu_opties[0][0], gpu_opties[0][1], gpu_opties[0][2], gpu_opties[0][3]
 
-def bereken_ram_ddr4(lijn, socket, gewenste_grootte, data):
+def bereken_ram_ddr4(doel, lijn, socket, gewenste_grootte, data):
     grootte = re.search("~(.*)~", lijn).group(1)
-    if grootte == gewenste_grootte:
-        ram, snelheid = scheid_str(lijn, ";")
-        snelheid = int(snelheid)
-        ram = re.sub('~.*?~', '', ram)
-        som = ((snelheid - 2666) / 1734) * 11
-        som = 11 - som
-        if socket == "1700":
-            som = (94 - som) / 100
-        else:
-            som = (100 - som) / 100
+    if doel == "gaming":
+        if grootte == gewenste_grootte:
+            ram, snelheid = scheid_str(lijn, ";")
+            snelheid = int(snelheid)
+            ram = re.sub('~.*?~', '', ram)
+            som = ((snelheid - 2666) / 1734) * 11
+            som = 11 - som
 
-        return ram, som * int(data[0])
-    return None, None
 
-def bereken_ram_ddr5(lijn, gewenste_grootte, data):
-        grootte = re.search("~(.*)~", lijn).group(1)
+            if socket == "1700":
+                som = (94 - som) / 100
+            else:
+                som = (100 - som) / 100
+
+            return ram, som * int(data[0])
+
+        return None, None
+    else:
+        if grootte == gewenste_grootte:
+            ram, snelheid = scheid_str(lijn, ";")
+            ram = re.sub('~.*?~', '', ram)
+
+            return ram, int(data[0])
+        return None, None
+
+def bereken_ram_ddr5(doel, lijn, gewenste_grootte, data):
+    grootte = re.search("~(.*)~", lijn).group(1)
+    if doel == "gaming":
         if grootte == gewenste_grootte:
             ram, snelheid = scheid_str(lijn, ";")
             snelheid = int(snelheid)
@@ -107,8 +119,14 @@ def bereken_ram_ddr5(lijn, gewenste_grootte, data):
             som = ((snelheid - 4800) / 1600) * 9
             som = 9 - som
             som = (100 - som) / 100
-
             return ram, som * int(data[0])
+        return None, None
+    else:
+        if grootte == gewenste_grootte:
+            ram, snelheid = scheid_str(lijn, ";")
+            ram = re.sub('~.*?~', '', ram)
+
+            return ram, int(data[0])
         return None, None
 
 def zoek_moederbord(moederbord):
@@ -204,6 +222,13 @@ def kies_platform(doel, doeleind_data, budget):
             ddr4_content = ddr4_f.readlines()
 
             snelheden = []
+            if socket == "am4":
+                ram = "ddr4"
+            elif socket == "am5":
+                ram = "ddr5"
+            else:
+                ram = "1700"
+
             if doel == "gaming":
                 if cpu_prijs > 450:
                     gewenste_grootte = "2x16"
@@ -212,38 +237,67 @@ def kies_platform(doel, doeleind_data, budget):
                 else:
                     gewenste_grootte = "2x8"
 
-                if socket == "am4":
-                    ram = "ddr4"
-                elif socket == "am5":
-                    ram = "ddr5"
-                else:
-                    ram = "ddr4"
-
                 if ram == "ddr4":
                     for product in ddr4_content:
-                        ram_schoon, snelheid = bereken_ram_ddr4(product,socket, gewenste_grootte, data)
+                        ram_schoon, snelheid = bereken_ram_ddr4(doel, product, socket, gewenste_grootte, data)
                         if snelheid != None:
                             snelheden.append((ram_schoon, snelheid))
                 if ram == "ddr5":
                     for product in ddr5_content:
-                        ram_schoon, snelheid = bereken_ram_ddr5(product, gewenste_grootte, data)
+                        ram_schoon, snelheid = bereken_ram_ddr5(doel, product, gewenste_grootte, data)
                         if snelheid != None:
                             snelheden.append((ram_schoon, snelheid))
                 else:
-                    ram_schoon, snelheid = bereken_ram_ddr4(product, socket, gewenste_grootte, data)
-                    if snelheid != None:
-                        snelheden.append((ram_schoon, snelheid))
+                    for product in ddr5_content:
+                        ram_schoon, snelheid = bereken_ram_ddr4(doel, product, socket, gewenste_grootte, data)
+                        if snelheid != None:
+                            snelheden.append((ram_schoon, snelheid))
 
-                    ram_schoon, snelheid = bereken_ram_ddr5(product, gewenste_grootte, data)
-                    if snelheid != None:
-                        snelheden.append((ram_schoon, snelheid))
+                    for product in ddr5_content:
+                        ram_schoon, snelheid = bereken_ram_ddr5(doel, product, gewenste_grootte, data)
+                        if snelheid != None:
+                            snelheden.append((ram_schoon, snelheid))
+            else:
+                if cpu_prijs > 250:
+                    if cpu_prijs > 450:
+                        gewenste_grootte = "4x16"
+                    else:
+                        gewenste_grootte = "450"
+                else:
+                     gewenste_grootte = "2x8"
+                if ram == "ddr4":
+                    for product in ddr4_content:
+                        ram_schoon, snelheid = bereken_ram_ddr4(doel, product, socket, gewenste_grootte, data)
+                        if snelheid != None:
+                            snelheden.append((ram_schoon, snelheid))
+                elif ram == "ddr5":
+                    for product in ddr5_content:
+                        ram_schoon, snelheid = bereken_ram_ddr5(doel, product, gewenste_grootte, data)
+                        if snelheid != None:
+                            snelheden.append((ram_schoon, snelheid))
+                else:
+                    print("z790 daddy")
+                    if "z790" in moederbord:
+
+                        for product in ddr5_content:
+                            ram_schoon, snelheid = bereken_ram_ddr5(doel, product, gewenste_grootte, data)
+                            if snelheid != None:
+                                snelheden.append((ram_schoon, snelheid))
+                    else:
+                        for product in ddr4_content:
+                            ram_schoon, snelheid = bereken_ram_ddr4(doel, product, socket, gewenste_grootte, data)
+                            if snelheid != None:
+                                snelheden.append((ram_schoon, snelheid))
+
 
             for snelheid in snelheden:
                 ram, ram_prijs = scheid_str(snelheid[0], ":")
                 platform_prijs = int(ram_prijs) + int(cpu_prijs) + int(koeler_prijs) + int(moederbord_prijs)
                 ratio = snelheid[1] / platform_prijs
 
-                platformen.append((ratio, platform_prijs, cpu, data[2], moederbord, ram, koeler, snelheid[1]))
+                platformen.append([ratio, platform_prijs, cpu, cpu_prijs, int(data[2]),
+                                   moederbord, moederbord_prijs, ram, ram_prijs, koeler,
+                                   koeler_prijs, snelheid[1]])
         mogelijke_platformen = []
         for platform in platformen:
             if min_budget_platform <= platform[1] <= max_budget_platform:
@@ -251,17 +305,16 @@ def kies_platform(doel, doeleind_data, budget):
 
         if len(mogelijke_platformen) == 0:
             platformen.sort(key=lambda x: x[1])
-            if max_budget_platform <= platformen[0][1]:
-                gpu = kies_gpu(doel, doeleind_data)
 
-            else:
-                platformen.sort(key=lambda x:x[-1], reverse=True)
-                return (platformen[0][1], platformen[0][2], platformen[0][3], platformen[0][4],
-                        platformen[0][5], platformen[0][6])
+            platformen.sort(key=lambda x:x[-1], reverse=True)
+            platform = platformen[0]
+            platform.pop(0)
+            return platform
 
     mogelijke_platformen.sort(reverse=True)
-    return (mogelijke_platformen[0][1], mogelijke_platformen[0][2], mogelijke_platformen[0][3], mogelijke_platformen[0][4],
-            mogelijke_platformen[0][5], mogelijke_platformen[0][6])
+    platform = mogelijke_platformen[0]
+    platform.pop(0)
+    return platform
 
 def kies_psu(budget, tdp_cpu, tdp_gpu):
     totaal_tdp = tdp_gpu + tdp_cpu
@@ -296,10 +349,13 @@ def kies_psu(budget, tdp_cpu, tdp_gpu):
             efficientie = "titanium"
         if gewenste_eff == efficientie:
             return scheid_str(psu, ":")
+    psu, wattage = scheid_str(line, ";")
+    return scheid_str(psu, ":")
 
 def kies_behuizing(budget):
     behuizing_f = open("behuizing_results.txt", "r")
     behuizing_content = behuizing_f.readlines()
+
 
     if budget > 700:
         if budget > 1000:
@@ -310,11 +366,10 @@ def kies_behuizing(budget):
         else:
             gewenste_behuizing = "aerocool hexform"
     else:
-
-        return behuizing_content[0]
+        behuizing = scheid_str(behuizing_content[0], ":")
+        return behuizing
 
     for line in behuizing_content:
-
         if gewenste_behuizing in line.lower():
             return scheid_str(line, ":")
 
@@ -372,18 +427,20 @@ def kies_opslag(budget):
     else:
         return opslagen["ssd 240gb"]
 
-def main():
-    doel, doeleind_data = doeleind()
+def main(budget, doel):
+    doeleind_data = doeleind(doel)
 
-    gpu = kies_gpu(doel, doeleind_data)
-    gpu_prijs = int(gpu[2])
-    budget = gpu[0]
+    budget, gpu, gpu_prijs, _, tdp_gpu = kies_gpu(budget, doel, doeleind_data)
+    if gpu == "error":
+        return 0
 
-    platform = kies_platform(doel, doeleind_data, budget)
-    platform_prijs = int(platform[0])
-    tdp_cpu = int(platform[2])
+    print(gpu)
+    (platform_prijs,
+     cpu, cpu_prijs, tdp_cpu,
+     moederbord, moederbord_prijs,
+     ram, ram_prijs,
+     koeling, koeling_prijs, cpu_perf) = kies_platform(doel, doeleind_data, budget)
 
-    tdp_gpu = gpu[4]
     psu, psu_prijs = kies_psu(budget, tdp_cpu, tdp_gpu)
     psu_prijs = int(psu_prijs)
     behuizing, behuizing_prijs = kies_behuizing(budget)
@@ -392,22 +449,25 @@ def main():
     budget_over = budget - gpu_prijs - platform_prijs - psu_prijs - behuizing_prijs
     opslag = kies_opslag(budget_over)
 
-    gpu = gpu[1]
-    cpu = platform[1]
-    moederbord = platform[3]
-    ram = platform[4]
-    cooler = 'Geen cooler nodig, hij is bijgeleverd'
-    if platform[4] != None:
-        cooler = platform[5]
+    if koeling is None:
+
+        koeling = "Koeling is bij de processor geleverd."
+        koeling_prijs = "-"
 
     opslag_final = ""
+    opslag_prijs = 0
     if isinstance(opslag, str) == False:
         for item in opslag:
             if isinstance(item, int) == False:
-                opslag_final += item + ", "
-    opslag_final = opslag_final[:-2]
+                opslag_final += item + "<br>"
+            else:
+                opslag_prijs += item
 
-    return gpu, cpu, moederbord, ram, cooler, behuizing, opslag_final
+    return (gpu, gpu_prijs, cpu, cpu_prijs,
+            psu, psu_prijs, moederbord, moederbord_prijs,
+            ram, ram_prijs, koeling, koeling_prijs,
+            behuizing,behuizing_prijs, opslag_final, opslag_prijs)
+
 if __name__ == "__main__":
-    computer = main()
+    computer = main(1800, "professioneel")
     print(computer)

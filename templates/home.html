@@ -4,27 +4,48 @@
     <meta charset="UTF-8">
     <title>{{name}}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
 </head>
 
+<h1 class="centered">Computer Samensteller</h1>
 <div class="centered">
-    <form class="form_padding" method="POST">
-        Budget: <input type="number" name="budget" value={{budget}} min="400">
-    </form>
-
-    <div class="dropdown">
-        <p class="dropbtn"> Gebruik: {{name}} </p>
-        <form class="dropdown-content" method="POST">
-            <button type="submit" name="gaming_btn" value="0">Gaming</button>
-            <button type="submit" name="productiviteit_btn" value="0">Productiviteit</button>
-        </form>
     
-    
-    </div> 
     <form method="POST">
-        <button class="submit_button">submit</button>
+        Budget: <input type="number" name="budget" value={{budget}} min="400" id="budget_input">
+        <h2>Doel van de computer:</h2>
+        <div class="checkboxes">
+            
+            <input type="checkbox" id="Gaming" name="Gaming" value="Gaming" checked="true">
+            <label for="Gaming">Gaming</label><br>
+            <input type="checkbox" id="Productiviteit" name="Productiviteit" value="Productiviteit">
+            <label for="vehicle2">Productiviteit</label><br>
+        </div>
+        
+        <button class = "submit_btn"  name="submit_btn" type="submit" value="0">Stel computer samen</button>
     </form>
-     
 </div>
+<script>
+const gaming_checkbox = document.getElementById('Gaming')
+const prod_checkbox = document.getElementById('Productiviteit')
 
+
+
+gaming_checkbox.addEventListener("change", (event) => {
+    if (event.currentTarget.checked) {
+        prod_checkbox.checked = false;
+    } else {
+        prod_checkbox.checked = true;
+    }
+})
+prod_checkbox.addEventListener("change", (event) => {
+    if (event.currentTarget.checked) {
+        gaming_checkbox.checked = false;
+    } else {
+        gaming_checkbox.checked = true;
+    }
+})
+
+</script>
 </html>
-<!--<button class="submit_button centered">submit</button>-->
+
+
