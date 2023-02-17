@@ -1,0 +1,13 @@
+patriot memory ddr4 viper steel 2x4gb 3200mhz (pvs48g320c6) geheugenmodule:36~2x4~;3200
+g.skill ddr4 aegis 2x8gb 3200mhz - [f4-3200c16d-16gis] geheugenmodule:42~2x8~;3200
+g.skill ddr4 aegis 2x16gb 3200mhz - [f4-3200c16d-32gis] geheugenmodule:74~2x16~;3200
+corsair vengeance lpx cm4x16gc3200c16k4 16 gb 2 x 8 gb ddr4 3200 mhz geheugenmodule:79~4x16~;3200
+g.skill ddr4 trident-z 8x16gb 3200mhz - [f4-3200c16q2-128gtz] geheugenmodule:399~8x16~;3200
+g.skill ddr4 ripjaws-v 2x8gb 3600mhz - [f4-3600c18d-16gvk] geheugenmodule:49~2x8~;3600
+kingston ddr4 fury beast 2x16gb 3600 geheugenmodule:94~2x16~;3600
+g.skill ddr4 ripjaws-v 4x16gb 3600mhz - [f4-3600c19q-64gvrb] geheugenmodule:184~4x16~;3600
+g.skill ddr4 trident-z 8x16gb 3600mhz cl17 black geheugenmodule:539~8x16~;3600
+g.skill ddr4 ripjaws-v 2x8gb 4000mhz - [f4-4000c18d-16gvk] geheugenmodule:81~2x8~;4000
+kingston ddr4 fury renegade 2x16gb 4000 geheugenmodule:124~2x16~;4000
+patriot memory ddr4 viper steel 2x8gb 4400mhz (pvs416g440c9k) geheugenmodule:114~2x8~;4400
+g.skill ddr4 trident z royal 2x16gb 4400mhz [f4-4400c19d-32gtrs] geheugenmodule:181~2x16~;4400

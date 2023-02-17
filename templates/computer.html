@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/computer_style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='computer_style.css') }}">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Computer resultaat</title>
 </head>
 <h1 class="centered">Uw computer</h1>
 <body class="centered">
@@ -43,24 +43,30 @@
             <th>{{koeling}}</th>
             <th id="koeling_prijs">{{koeling_prijs}}</th>
         </tr>
-        <tr>    
+        <tr>
             {% autoescape false %}
             <th>Opslag</th>
             <th>{{opslag}}</th>
             <th>€{{opslag_prijs}},-</th>
             {% endautoescape %}
         </tr>
+        <tr>
+            <th>Behuizing</th>
+            <th>{{behuizing}}</th>
+            <th>€{{behuizing_prijs}},-</th>
+        </tr>
     </table>
+    <h2>Totale prijs: €{{totaal_prijs}},-</h2>
     <form method="POST" class="form_padding">
         <button class="terug_btn" type="submit">Terug</button>
     </form>
-    
+
 </body>
 <script>
     koeling_prijs = document.getElementById("koeling_prijs").innerHTML;
-   
+
     if(koeling_prijs != "-"){
         document.getElementById("koeling_prijs").innerHTML = "€" + koeling_prijs + ",-";
-    } 
+    }
 </script>
 </html>
