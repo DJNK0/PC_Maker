@@ -159,7 +159,7 @@ samsung t7 shield 1tb zwart externe ssd:112
 i-tec mysafem2 behuizing voor opslagstations m.2 sdd-behuizing zwart:15
 seagate hdd 3.5" 3tb st3000dm007 barracuda:77
 wd black sn850 2tb m.2 ssd:249
-toshiba hdtb410ek3aa canvio basics 2 1tb zwart externe harde schijf:47
+toshiba hdtb410ek3aa canvio basics 2 1tb zwart externeÂ harde schijf:47
 synology device license 1x:47
 crucial p3 4tb m.2 ssd:359
 crucial p3 500gb m.2 ssd:50
@@ -308,7 +308,7 @@ western digital red plus wd140efgx 14tb:389
 case logic luxe externe harddisk case, zwart, 2.5":12
 act ac1500 2,5"/3,5" sata harde schijf docking station, usb 3.2 gen1:32
 wd my cloud home 2tb:148
-western digital wdbwlg0060hbk 6tb zwart externe harde schijf:169
+western digital wdbwlg0060hbk 6tb zwart externeÂ harde schijf:169
 patriot memory burst elite 2.5" 960 gb sata iii ssd:57
 seagate expansion stkp6000400 externe harde schijf 6000 gb zwart:128
 seagate stjr2000400 2000 gb zwart externe ssd:409
@@ -445,7 +445,7 @@ seagate ironwolf 125 2tb ssd:359
 western digital black d30 game 2tb wdbatl0020bbk-wesn externe ssd:289
 wd hdd 3.5" 6tb wd60efpx red plus:159
 western digital purple wd10purz 1tb:49
-toshiba hdtb420ek3aa canvio basics 2 2tb zwart externe harde schijf:64
+toshiba hdtb420ek3aa canvio basics 2 2tb zwart externeÂ harde schijf:64
 samsung t7 touch 2tb zilver externe ssd:289
 gigabyte aorus gen4 2tb m.2 ssd:219
 lacie portable v2 500gb usb-c externe ssd:80
@@ -587,7 +587,7 @@ lacie 2big dock disk array 32 tb desktop zwart:1820
 qnap tbs-464 nas desktop ethernet lan zwart nas:709
 synology rackstation rs1221rp+ nas:1699
 logilink au0028a kabeladapter/verloopstukje usb 3.0 naar sata/ide:26
-transcend storejet 25m3 1000gb groen, grijs externe harde schijf:71
+transcend storejet 25m3 1000gb groen, grijs externeÂ harde schijf:71
 seagate basic externe harde schijf 2000 gb zilver:67
 sandisk portable 480 gb blauw externe ssd:79
 icy box ib-550stu3s externe 5,25 blu-ray/3,5" sata behuizing:83
@@ -616,7 +616,7 @@ patriot memory burst elite 2.5" 480 gb sata iii ssd:29
 delock 62661 hdd dockingstation voor 2x 2,5"of 3,5" hdds via usb3.0:70
 freecom tough drive 2tb hdd usb 3.0 56331:99
 toshiba hdd 1tb dt01aca100:44
-lacie rugged secure 2000gb oranje, wit externe harde schijf:148
+lacie rugged secure 2000gb oranje, wit externeÂ harde schijf:148
 verbatim store n go 2.5 2tb usb 3.0 silver:74
 toshiba hdd p300 500gb:40
 seagate hdd 3.5" exos x20 20tb:409
@@ -658,7 +658,7 @@ toshiba n300 nas 10tb 3.5" sata iii hdwg11auzsva:259
 act ac1600 behuizing voor opslagstations sdd-behuizing zwart m.2:26
 hewlett packard enterprise 1.2tb 2.5" 12g sas 1200gb sas interne harde schijf - [872479-b21]:309
 intenso memory drive 2.5" 2tb usb 3.0 incl. sleeve zwart:74
-seagate game drive hub 8000gb wit externe harde schijf:272
+seagate game drive hub 8000gb wit externeÂ harde schijf:272
 pny xlr8 cs3030 250gb m.2 ssd:69
 lacie rugged 500 gb oranje externe ssd:156
 wd red 2tb m.2 ssd:202
@@ -713,7 +713,7 @@ asustor nimbustor 2 ethernet lan desktop zwart nas nas:379
 seagate hdd nas 3.5" 2tb st2000ne001 ironwolf pro:108
 western digital mypassport 1tb gold wdbagf0010bgd-wesn externe ssd:183
 silicon power a66 externe harde schijf 1000 gb zwart, blauw:65
-transcend storejet 25h3 4000gb blauw, navy externe harde schijf:126
+transcend storejet 25h3 4000gb blauw, navy externeÂ harde schijf:126
 patriot memory p210 2.5" 1000 gb sata iii ssd:58
 pny xlr8 cs3140 2000 gb pci express 4.0 3d nand nvme m.2 ssd:489
 fractal design ssd bracket kit - type a white:9
@@ -954,14 +954,14 @@ silicon power armor a60 - [sp020tbphda60s3k]:88
 seagate ironwolf 525 1000 gb pci express 4.0 3d tlc nvme m.2 ssd:229
 seagate enterprise st6000nm0125 6000gb sata iii interne harde schijf:339
 western digital wd22purz interne harde schijf 3.5" 2000 gb sata:67
-icy dock mb795sp-b 2x 2.5” & 1x 3.5” sata docking behuizing voor 5,25":64
+icy dock mb795sp-b 2x 2.5Â” & 1x 3.5Â” sata docking behuizing voor 5,25":64
 seagate st2000nm003a interne harde schijf 3.5" 2000 gb sas:156
 seagate ironwolf st12000vna008 interne harde schijf 3.5" 12000 gb sata iii:655
 hgst ultrastar he12 12000gb sas interne harde schijf - [0f29532]:389
 transcend 420s 480 gb sata iii 3d nand m.2 ssd:38
 synology adapter 100w_2:70
 adata 2.5 ultimate su630 240gb ssd:21
-delock 42633 external usb type-c© combo enclosure for m.2 nvme pcie or sata ssd interfacekaart/-adap:67
+delock 42633 external usb type-cÂ© combo enclosure for m.2 nvme pcie or sata ssd interfacekaart/-adap:67
 icy box ib-ir3521 interal raid 2x3,5"+1x 2,5" in 2x 5,25:94
 transcend mts400 sata iii - [ts128gmts400s] 128gb m.2 ssd:73
 lacie rugged pro 1000 gb zwart externe ssd:309
@@ -1139,9 +1139,9 @@ seagate hdd 2.5" 3tb st3000lm024:158
 startech.com 2.5" ssd/hdd montagebeugel voor 3.5" drive bay gereedschapsloze installatie:9
 adata hd700 3.0 (3.1 gen 1) 2000gb zwart:136
 delock 47226 2.5" zwart opslagbehuizing:38
-western digital scorpio eide 80gb 5400 rpm 8mb 80gb externe harde schijf:103
-apricorn aegis padlock usb 3.0 500gb 500gb zwart externe harde schijf:195
-adata hdd ext hv300 2tb black 2000gb zwart externe harde schijf:76
+western digital scorpio eide 80gb 5400 rpm 8mb 80gb externeÂ harde schijf:103
+apricorn aegis padlock usb 3.0 500gb 500gb zwart externeÂ harde schijf:195
+adata hdd ext hv300 2tb black 2000gb zwart externeÂ harde schijf:76
 transcend storejet 25c3s 2tb 2.5 usb 3.1 gen 1:93
 verbatim store n go 2.5 alu 2tb usb 3.2 gen 1 silver:89
 verbatim store n go 2.5 alu 2tb usb 3.2 gen 1 space gray:88
@@ -1198,10 +1198,10 @@ silicon power 4tb armor a85s 4000gb zwart, zilver:133
 logilink usb 3.0 > sata iii:31
 adata hd700 3.0 (3.1 gen 1) 2000gb zwart, blauw:136
 western digital my book duo 20000gb desktop zwart disk array:699
-adata hd710 pro 1000gb zwart, blauw externe harde schijf:95
+adata hd710 pro 1000gb zwart, blauw externeÂ harde schijf:95
 seagate expansion steg4000401 12tb zwart harde schijf:520
-silicon power armor a62 4000gb zwart, rood externe harde schijf:130
-silicon power armor a62 5000gb zwart, rood externe harde schijf:162
+silicon power armor a62 4000gb zwart, rood externeÂ harde schijf:130
+silicon power armor a62 5000gb zwart, rood externeÂ harde schijf:162
 verbatim store n go 2.5 alu 1tb usb 3.2 gen 1 silver:68
 toshiba canvio advance externe harde schijf 2000 gb wit:73
 synology disk tray (type d7):11
@@ -1256,7 +1256,7 @@ delock 18000 drive bay panel:16
 icy box-138sk-b/-ii mobile rack 3,5":30
 verbatim storen go 2.5in 500gb 500gb:67
 delock 21287 3.5" carrier panel zwart drive bay panel:11
-silicon power armor a62 1000gb zwart, rood externe harde schijf:66
+silicon power armor a62 1000gb zwart, rood externeÂ harde schijf:66
 iosafe solopro externe harde schijf 3000 gb zwart:739
 synology rxd1219sas disk array zwart, grijs:3510
 verbatim store n go 2.5 alu 1tb usb 3.2 gen 1 space gray:72
@@ -1332,8 +1332,8 @@ dell 600gb, 10k rpm, sas 600gb serial attached scsi (sas):289
 synology disk tray (type r4):25
 synology disk tray (type r7):27
 synology fan 40x40x20_2 computer behuizing ventilator hardwarekoeling:13
-silicon power armor a85 5000gb zilver externe harde schijf:161
-silicon power armor a62 2000gb zwart, rood externe harde schijf:84
+silicon power armor a85 5000gb zilver externeÂ harde schijf:161
+silicon power armor a62 2000gb zwart, rood externeÂ harde schijf:84
 promise technology pegasus32 r6 disk array 48 tb toren zwart:4040
 sandisk g-raid shuttle 4 disk array 48 tb desktop zwart:4560
 fantec mr-35sata hot-swap bracket:42
@@ -1424,7 +1424,7 @@ dell 96g91 600gb sas interne harde schijf:246
 dell 7kxjr 1000gb sas interne harde schijf:418
 delock 21290 3.5" carrier panel rood drive bay panel:8
 delock 21291 3.5" carrier panel blauw drive bay panel:9
-silicon power armor a75 1000gb zilver externe harde schijf:67
+silicon power armor a75 1000gb zilver externeÂ harde schijf:67
 digittrade hs256 s3 externe harde schijf 2000 gb zwart:1010
 promise technology pegasus32 r6 disk array 24 tb toren zwart:2600
 toshiba canvio advance externe harde schijf 4000 gb zwart:118
@@ -1447,7 +1447,7 @@ seagate firecuda beskar ingot 500 gb pci express 4.0 3d tlc nvme m.2 ssd:184
 silicon power ud90 m.2 1000 gb pci express 4.0 3d nand nvme ssd:126
 icy dock mb343sp 2x2,5"+1x3,5" sata front bay to extern 5,25":18
 inter-tech 88885232 opslagbehuizing:4
-startech.com usb 3.1 (10bps) harddisk docking station voor één 2,5/3,5" sata ssd/hdd schijf:73
+startech.com usb 3.1 (10bps) harddisk docking station voor Ã©Ã©n 2,5/3,5" sata ssd/hdd schijf:73
 i-tec mysafeu314 hdd-/ssd-behuizing 2.5" wit storage drive enclosure:12
 logilink qp0028 basisstation voor opslagstations:66
 lc-power lc-dock-u3-4b basisstation voor opslagstations usb 3.0 type-a zwart:91
@@ -1464,7 +1464,7 @@ startech.com 3,5 inch universele harde schijf montagebeugel adapter voor 5,25 in
 icy box ib-ac647 m.2 sata adapter voor 9,5mm notebook dvd bay:11
 asustor as6204rs ethernet lan nas:849
 panasonic wj-hxe400 12000gb zilver disk array:349
-intel ® d3-s4610 series (960gb, 2.5in sata 6gb/s, 3d2, tlc) ssd:239
+intel Â® d3-s4610 series (960gb, 2.5in sata 6gb/s, 3d2, tlc) ssd:239
 kingston technology dc500 internal solid state drive 2.5" 1920 gb sata iii 3d tlc [sedc500r/1920g] ssd:289
 kingston technology dc500 internal solid state drive 2.5" 480 gb sata iii 3d tlc [sedc500r/480g] ssd:86
 kingston technology dc500 internal solid state drive 2.5" 960 gb sata iii 3d tlc [sedc500m/960g] ssd:177
@@ -1523,7 +1523,7 @@ icy box ib-233u3-wh externe 2,5" behuizing sata stootrand wit:17
 startech.com schijf docking station voor 2.5 / 3.5" sata drives usb 3.1 (usb-a, usb-c) of esata:81
 raidon ir2022 2x2,5" sata behuizing raid voor externe 5,25":259
 innovation it 00-120929 solid state drive ssd:17
-delock 89472 intern m.2 pci-express-kaart, één slot:34
+delock 89472 intern m.2 pci-express-kaart, Ã©Ã©n slot:34
 patriot memory burst 480gb 2.5" sata iii ssd:65
 transcend ts960gjdm855 960 gb externe ssd:349
 transcend 830s 256 gb serial ata iii m.2 ssd:34
@@ -1628,7 +1628,7 @@ icy box ib-rd3802-c31 usb type-c raid behuizing 2x3,5":149
 icy box ib-g226l-c31 behuizing voor opslagstations 2.5":35
 qnap ts-832px nas tower ethernet lan aluminium, zwart al324 nas:1200
 synology rackstation rs3621rpxs data-opslag-server opslagserver rack (2u) ethernet lan zwart d-1531 nas:3750
-phanteks ph-hddkt_02 universeel hdd-behuizing computerbehuizing onderdelen:7
+phanteks ph-hddkt_02 universeel hdd-behuizing computerbehuizingÂ onderdelen:7
 gembird nicht kategorisiert universeel:4
 intel 2u hot-swap 8x2.5inch sas/nvme combo drive bay kit a2u8x25s3phs:289
 patriot memory gauntlet 4 hdd-/ssd-behuizing 2.5" aluminium:22
@@ -1639,7 +1639,7 @@ startech.com usb 2.0 naar sata/ide comboadapter voor 2,5/3,5 inch ssd/hdd:40
 verbatim store n save 3.5 2tb usb 3.0 gen 2:74
 delock 42589 ssd enclosure grijs opslagbehuizing:81
 netgear readynas 424 nas desktop ethernet lan zwart - [rn424e4-100nes]:2210
-intel ® d3-s4610 series (480gb, 2.5in sata 6gb/s, 3d2, tlc) ssd:209
+intel Â® d3-s4610 series (480gb, 2.5in sata 6gb/s, 3d2, tlc) ssd:209
 owc aura pro x 480 gb pci experess [owcs3dapb4mb05k] ssd pci-e:591
 samsung pm1643 internal solid state drive 2.5" 1920 gb sas v-nand tlc ssd:609
 innovation it 00-256999 internal solid state drive 2.5" 256 gb sata iii tlc ssd:22
@@ -1697,7 +1697,7 @@ verbatim store n save 3.5 4tb usb 3.0 gen 2:104
 western digital wds480g1g0a solid state drive ssd:176
 hp 256-gb tlc m.2 sata-3 solid-state schijf ssd:47
 icy box ib-2213ssk mobile rack 1x 2,5" sata 3,5" mountable:52
-intel ® d3-s4610 series (1.92tb, 2.5in sata 6gb/s, 3d2, tlc) ssd:489
+intel Â® d3-s4610 series (1.92tb, 2.5in sata 6gb/s, 3d2, tlc) ssd:489
 dell 400-bdoz internal solid state drive 2.5" 480 gb sata iii ssd:74
 patriot memory vpn100 2tb nvme pcie 3.0 m.2 ssd:219
 kingston technology dc450r 2.5" 3840 gb sata iii 3d tlc ssd:399
@@ -1753,14 +1753,14 @@ delock 63991 basisstation voor opslagstations usb 3.2 gen 1 (3.1 gen 1) type-b z
 fantec alu15mmu31 hdd-/ssd-behuizing wit 2.5":24
 startech.com usb 3.0 standalone eraser docking station voor 2.5" en 3.5" sata ssd/hdd schijven:309
 icy dock tougharmor 2x2,5" sata raid behuizing mobile rack voor externe 3,5" met slot:209
-phanteks ph-hddkt_01 universeel hdd-behuizing computerbehuizing onderdelen:9
+phanteks ph-hddkt_01 universeel hdd-behuizing computerbehuizingÂ onderdelen:9
 delock 62848 intern m.2 interfacekaart/-adapter:43
 icy dock tougharmor mb991u3-1sb externe 2,5" sata behuizing usb:176
 icy box ib-2217sts mobile rack 2,5" sata 3,5" mountable:32
 toshiba l200 500gb 500gb sata iii:53
 transcend jetdrive 820 pci express 3.0 - [ts960gjdm820] m.2 ssd:289
-silicon power armor a60 4000gb zwart, groen externe harde schijf:130
-western digital elements se 500gb zwart externe harde schijf:68
+silicon power armor a60 4000gb zwart, groen externeÂ harde schijf:130
+western digital elements se 500gb zwart externeÂ harde schijf:68
 intel 1.900 gb - sata - intern ssd:299
 samsung pm883 3840 gb sata iii 2.5" ssd:639
 emtec ec240gx150 internal solid state drive 240 gb ssd:25
@@ -1787,7 +1787,7 @@ v7 v7240gbse 240gb sata m.2 ssd:40
 v7 v7512gbnv3e internal solid state drive 512 gb sata iii 3d tlc nvme m.2 ssd:68
 silicon power ud90 m.2 250 gb pci express 4.0 3d nand nvme ssd:54
 sandisk ultra 3d 2.5" 1000 gb sata iii 3d nand ssd:131
-seagate game drive darth vader© special edition firecuda externe harde schijf 2000 gb zwart, rood:88
+seagate game drive darth vaderÂ© special edition firecuda externe harde schijf 2000 gb zwart, rood:88
 mushkin element 2.5" 128 gb sata iii 3d nand ssd:22
 synology camera license pack 8x:329
 seagate 1200 800gb mlc 12gb/s sas sed ssd:519
@@ -1850,7 +1850,7 @@ seagate one touch desktop externe harde schijf 20000 gb zwart:439
 silicon power a66 externe harde schijf 5000 gb zwart, blauw:167
 samsung pm893 2.5" 480 gb sata iii v-nand tlc ssd:95
 seagate game drive stkx5000400 externe harde schijf 5000 gb groen:165
-delock 18178 hdd protection cover > 2.5”:6
+delock 18178 hdd protection cover > 2.5Â”:6
 inter-tech wr-4000:22
 adata se720 128gb ssd:98
 fantec alu-25b31 zilver 2.5 usb 3.1 aluminium:23
@@ -1860,7 +1860,7 @@ toshiba mg04sca40en 4000gb sas interne harde schijf:176
 western digital red wd80efax 8tb:299
 delock 89925 interfacekaart/-adapter intern m.2, pcie, usb 2.0, usb 3.2 gen 1 (3.1 gen 1):47
 synology has5300-16t interne harde schijf 3.5" 16000 gb sas:799
-startech.com sm2dupe11 media- en dataduplicator hdd/ssd-duplicator 1 kopieën zwart nas:999
+startech.com sm2dupe11 media- en dataduplicator hdd/ssd-duplicator 1 kopieÃ«n zwart nas:999
 raidsonic ib-127cl-u3 basisstation voor opslagstations zwart:71
 lindy usb 3.0 sata enclosure 2.5" hdd-/ssd-behuizing zwart 2.5":16
 gembird ee2-u3s-2-b behuizing voor opslagstations hdd-behuizing blauw 2.5":18
@@ -1942,7 +1942,7 @@ startech.com 3,5in zwarte usb 3.0 externe sata iii harde-schijfbehuizing met uas
 startech.com robuuste harde-schijfbehuizing usb 3.0 naar 2,5 inch sata 6 gbps hdd of sdd uasp:53
 startech.com usb 3.1 gen 2 (10 gbps) gereedschapsloze behuizing voor 2,5 inch sata-schijven:37
 qnap qvp-21a-04ch data-opslag-server nas tower ethernet lan zwart j1900 nas:459
-delock 18267 universeel hdd mounting bracket computerbehuizing onderdelen:20
+delock 18267 universeel hdd mounting bracket computerbehuizingÂ onderdelen:20
 delock 63343 intern m.2 interfacekaart/-adapter:38
 western digital ultrastar 7k6 4tb sas ultra 4000gb interne harde schijf:179
 startech.com sm2e1bmu31c behuizing voor opslagstations sdd-behuizing zwart m.2:114
@@ -1980,9 +1980,9 @@ adata hc660 3.0 (3.1 gen 1) 2000gb titanium:84
 digitus da-71114 2.5" zwart opslagbehuizing:24
 assmann electronic da-71109 hdd-/ssd-behuizing 2.5" zwart, grijs opslagbehuizing:14
 apricorn aegis padlock fortress 1tb:269
-verbatim store'n'go 1000gb zwart, zilver externe harde schijf:77
-silicon power armor a75 2000gb zilver externe harde schijf:86
-apricorn aegis padlock 2000gb zwart externe harde schijf:319
+verbatim store'n'go 1000gb zwart, zilver externeÂ harde schijf:77
+silicon power armor a75 2000gb zilver externeÂ harde schijf:86
+apricorn aegis padlock 2000gb zwart externeÂ harde schijf:319
 iosafe solo g3 3tb externe harde schijf 3000 gb zwart:529
 verbatim fingerprint secure 2tb usb 3.1 gen 1 usb-c 2.5:117
 digittrade hs256s 500gb externe harde schijf zwart:699
@@ -2200,7 +2200,7 @@ dell 400-bllg interne harde schijf 3.5" 2000 gb sata iii:229
 dell krm6x 3.5" 4000 gb sas:279
 silverstone sst-rvs03 behuizing voor opslagstations m.2:55
 silverstone fdp01 montageset:18
-delock 18216 computerbehuizing onderdelen:6
+delock 18216 computerbehuizingÂ onderdelen:6
 silverstone fs301 13,3 cm (5.25") opslagschijflade zwart:49
 dell 37mgt interne harde schijf 3.5" 2000 gb nl-sas:266
 delock 47232 behuizing voor opslagstations 2.5" hdd-/ssd-behuizing zwart:92
@@ -2208,7 +2208,7 @@ hewlett packard enterprise p40430-b21 interne harde schijf 2.5" 300 gb sas:177
 qnap ts-262 nas tower ethernet lan goud, wit n4505 nas:499
 seagate skyhawk 3.5" 1000 gb sata iii:53
 seagate skyhawk 3.5" 6000 gb sata iii:153
-nedis hardeschijfbehuizing | 2.5 " | usb 3.2 gen1 | usb type-a / usb type-c© | notebook / pc | aluminium:17
+nedis hardeschijfbehuizing | 2.5 " | usb 3.2 gen1 | usb type-a / usb type-cÂ© | notebook / pc | aluminium:17
 icy dock mb602spo-b 2x2,5" sata+ ultra slim odd behuizing backplane:112
 icy dock mb996sk-6sb 6x2,5" sata behuizing backplane voor externe 5,25":249
 cru dp25 2.5" hdd-/ssd-behuizing zwart:179
